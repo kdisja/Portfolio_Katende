@@ -420,7 +420,7 @@ h3 {
 }
 
 .about-panel p {
-  text-align: justify;
+  text-align: left;
 }
 
 .about-panel p:last-child {
@@ -429,6 +429,7 @@ h3 {
 
 .about-text {
   margin: 0;
+  text-align: left;
   font-size: clamp(1.08rem, 1.6vw, 1.45rem);
   line-height: 1.75;
 }
@@ -445,15 +446,18 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 1.4rem;
   background: rgba(255, 248, 239, 0.58);
+  text-align: left;
 }
 
 .about-highlight h3 {
   margin-bottom: 0.55rem;
   font-size: 1rem;
+  text-align: left;
 }
 
 .about-highlight p {
   margin: 0;
+  text-align: left;
 }
 
 .about-actions {
