@@ -475,6 +475,7 @@ h3 {
   background: rgba(255, 248, 239, 0.62);
   box-shadow: var(--shadow);
   font-family: "Source Serif 4", serif;
+  text-align: justify;
 }
 
 .focus-card h3,
