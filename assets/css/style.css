@@ -582,6 +582,12 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.skill-row-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 .skill-meter {
   width: 100%;
   height: 0.95rem;
