@@ -234,6 +234,7 @@ h3 {
 .note-card p {
   color: var(--muted);
   font-size: 1.03rem;
+  text-align: justify;
 }
 
 .hero-tagline {
