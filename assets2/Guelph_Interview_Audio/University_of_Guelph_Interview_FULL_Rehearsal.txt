@@ -1,0 +1,583 @@
+Question. Interview Strategy and Core Positioning
+
+The committee has already shortlisted you after reading your questionnaire. The interview should therefore deepen and validate the same candidate story rather than introduce a different one.
+
+Core positioning: I am an applied epidemiologist and data analyst who combines rigorous evaluation, complex health-data analysis, data governance, and knowledge mobilization to help leaders make evidence-informed decisions that improve programs and services.
+
+The four themes to reinforce repeatedly are: (1) rigorous evaluation and epidemiological thinking; (2) strong technical ability across R, SAS, SQL, geospatial analysis and visualization; (3) experience with sensitive, linked and administrative health data; and (4) ability to translate analysis into practical recommendations for non-technical decision-makers.
+
+Question. What the Committee Already Knows About You
+
+Your motivation is connected to your experience as an international student at UBC and your interest in how universities use evidence to understand diverse student needs, inequities and student experience.
+
+You led a UBC campus food-security project and used research and stakeholder perspectives to inform institutional planning and decision-making.
+
+Your current WHO-supported Malawi work uses population survey and geospatial data to evaluate onchocerciasis mass drug administration, identify geographic gaps and support targeted follow-up and resource allocation.
+
+You built a reproducible R/ArcGIS Pro workflow and an interactive dashboard to make complex findings accessible to technical and program audiences.
+
+At CAREX Canada/BCCDC, you have worked with CanCHEC, cancer registry, linked survey and administrative data, standardized ICD-coded outcomes, R and SAS, and secure research environments.
+
+You explicitly referenced the Five Safes model and privacy/confidentiality obligations in your questionnaire.
+
+You confirmed that the Guelph flexible work arrangement and posted salary range are acceptable.
+
+Question. Tell us about yourself and why are you interested in this role?
+
+Thank you for the opportunity. I am an epidemiologist and data analyst with an MPH from UBC and about ten years of experience working with health and population data across research, public health and program settings.
+
+A common thread throughout my work has been taking complex data and turning it into evidence that people can actually use. At CAREX Canada and BCCDC, for example, I have worked with large linked population and health datasets, including national surveys, census-linked cohorts and cancer outcomes. That work has required strong data management, statistical analysis, careful attention to data quality and privacy, and clear communication of findings.
+
+In my current WHO-supported work in Malawi, I analyse population-based survey and geospatial data to evaluate mass drug administration coverage. A key contribution has been moving beyond reporting an overall coverage number to identifying where coverage gaps occur, what may be driving them, and how program teams can use those findings for targeted follow-up. I also developed maps and an interactive dashboard to make the results accessible for decision-making.
+
+What particularly attracts me to this position is that it brings together evaluation, epidemiology, data analysis, knowledge mobilization and evidence-informed planning. I also have a personal and professional connection to the university setting. As an international student at UBC, I saw how institutional decisions can shape student wellbeing and belonging, and I later led a campus food-security project that translated research and stakeholder perspectives into evidence for institutional planning.
+
+So I see this role as an opportunity to bring my analytical and evaluation experience back into a university environment and help Student Wellness Services understand needs, evaluate programs and turn evidence into practical decisions that improve services for students.
+
+Follow-up question. What attracted you specifically to Student Wellness?
+
+Student Wellness sits at the intersection of health, access, student experience and institutional decision-making. That is attractive to me because my work has consistently focused on using evidence to identify unmet need, evaluate services or interventions, and help decision-makers act. My UBC experience also gives me a genuine connection to the university setting and to the importance of services that support students' ability to thrive.
+
+Follow-up question. Why move from epidemiology into this role?
+
+I see it as an application of epidemiology rather than a departure from it. The core skills are the same: defining the population and outcome, choosing appropriate denominators, understanding bias and data quality, evaluating interventions, and translating findings into decisions. This role lets me apply those skills directly to programs and services affecting students.
+
+Follow-up question. What would you bring that another analyst may not?
+
+I bring the combination of technical analytics and an evaluation mindset. I can work with complex linked and administrative data, but I also think about study design, equity, governance, interpretation and how findings will change a program decision. I have also worked across university, public-health and research environments, so I am comfortable translating between technical and operational audiences.
+
+Question. This role is a one-year fixed term, and it's a move from global-health epidemiology into a university setting. How does this fit your plans? [NEW]
+
+This isn't a move away from epidemiology so much as applying the same evidence-to-action skills in a new setting. My WHO work in Malawi and my earlier UBC food-security project both taught me that rigorous analysis, stakeholder engagement, and translating evidence into decisions matter just as much in a university context as in global health - and I have a personal stake in it too, having experienced firsthand how institutional decisions shape international students' wellbeing.
+
+On the term length specifically: a year is enough time to make a real, visible contribution, and I'd approach it with full commitment regardless of its length - building a stronger evaluation foundation the team can carry forward is valuable work whether or not the role continues beyond the term.
+
+Note for Disann (not for the interview): this contract's end date (Sept 2027) lines up naturally with the 2027 PhD intake target in your UBC/SPPH concept note with Dr. Kalua. That's a genuinely honest coherence point for your own planning, not a conflict to paper over.
+
+Follow-up question. Would you consider staying beyond the term if extended?
+
+Yes. I am applying because the work itself is a strong fit, not simply because it is a one-year opportunity. If the role were extended and there continued to be a good mutual fit, I would absolutely be open to staying and continuing the work.
+
+Follow-up question. What made you decide to apply for a fixed-term role specifically?
+
+The term did not deter me because the scope is meaningful and a year is enough time to deliver tangible evaluation and analytics improvements. I was more focused on the fit between the work and my skills: evaluation, health data, knowledge mobilization and evidence-informed planning in a university environment.
+
+Question. Your questionnaire mentions your experience as an international student. How would that inform your work without assuming your experience represents all students?
+
+My own experience gives me an appreciation for the fact that students can experience the same institution very differently, but I would never use my personal experience as evidence of what other students need. In fact, it reinforces for me why rigorous evaluation is important.
+
+I would combine administrative and service data with surveys and, where appropriate, qualitative evidence to understand who is accessing services, who may not be represented in the data, and whether access or outcomes differ across student populations. I would also involve students and service providers in interpreting findings, because numbers need context.
+
+So my experience gives me motivation and perspective, but the recommendations I make would remain grounded in systematic evidence, appropriate denominators, careful interpretation and engagement with the populations the services are intended to support.
+
+Follow-up question. How would you measure equity?
+
+I would compare access and outcomes relative to an appropriate measure of need or the eligible student population, rather than relying on raw counts. Depending on the program, I would examine reach, wait time, completion, experience and outcomes across relevant groups, while considering intersectionality, missing demographic information, uncertainty and privacy.
+
+Follow-up question. What if sample sizes are small?
+
+I would avoid overinterpreting unstable estimates. I would consider aggregation across time or clinically and operationally meaningful categories, report uncertainty, suppress cells where privacy requires it, and use qualitative evidence where appropriate. I would not combine groups simply to make the statistics look cleaner if doing so erased meaningful differences.
+
+Follow-up question. How would you avoid stigmatizing groups?
+
+I would frame differences around systems, access and modifiable barriers rather than treating characteristics of a student group as the problem. I would use neutral language, provide context and denominators, involve relevant stakeholders in interpretation where appropriate, and avoid reporting granular results when they could identify or unfairly label a small population.
+
+Question. Tell us about your current role and the impact you have driven.
+
+In my current role as a research epidemiologist supporting work with WHO in Malawi, I analyse population-based survey and geospatial data to assess the performance of onchocerciasis mass drug administration across communities in Southern Malawi.
+
+The key analytical challenge was that an overall coverage estimate could hide important geographic differences. I therefore developed a reproducible workflow in R and ArcGIS Pro, assessed receipt, uptake and compliance, examined determinants of uptake, and used spatial methods to identify areas with lower coverage.
+
+The impact was shifting the conversation from "What is the overall coverage?" to "Where are the gaps, what is contributing to them, and where should follow-up resources be prioritized?" I also developed an interactive dashboard that allows stakeholders to explore district and community-level patterns rather than relying only on static tables.
+
+That experience reflects how I approach analytics generally: start with the decision that needs to be made, ensure the data are reliable, use methods appropriate to the question, and translate the results into a form that supports action.
+
+Follow-up question. What exactly was your individual contribution?
+
+I led the analytical workflow: defining the treatment indicators, cleaning and structuring the survey data, conducting the regression and spatial analyses, producing the maps, and developing the interactive dashboard. I also translated the results into program-relevant findings about where coverage was lower and what barriers could guide targeted follow-up.
+
+Follow-up question. How did stakeholders use the dashboard?
+
+The dashboard was designed to move stakeholders beyond a single overall coverage estimate. It allowed them to explore district and cluster-level variation, identify lower-coverage areas and examine patterns relevant to microplanning and follow-up. The practical value was making the analysis usable without requiring stakeholders to work through statistical output.
+
+Follow-up question. What did you do when the data had limitations?
+
+I made the limitations part of the analysis rather than hiding them. I checked missingness and denominator definitions, documented exclusions and assumptions, used methods appropriate to the clustered survey structure, and distinguished exploratory spatial signals from findings that remained statistically robust after adjustment. I then communicated what the data could and could not support.
+
+Question. How would you evaluate a new Student Wellness program?
+
+I would begin with the decision the evaluation needs to support rather than starting with the available data. First, I would work with the program team and relevant stakeholders to understand the intervention, its objectives, target population and theory of change. I would develop or review a logic model connecting inputs and activities to outputs and intended short- and longer-term outcomes.
+
+Second, I would translate that into specific evaluation questions. For a mental-health initiative, for example, we might ask whether the intended students are being reached, whether access or wait times have improved, whether students report improved outcomes, and whether access and outcomes differ across student populations.
+
+I would then identify indicators and data sources. Depending on the program, that could include administrative service data, program records, surveys and qualitative feedback from students or providers. I would assess data quality and establish an appropriate baseline or comparison. The design could range from descriptive monitoring to pre/post analysis, interrupted time series or another quasi-experimental approach, depending on implementation and data availability.
+
+Equity would be built into the evaluation from the beginning. I would examine who is accessing the program relative to the population experiencing need, not simply compare raw counts. Finally, I would translate the findings into recommendations and an appropriate knowledge product - for example, an operational dashboard, evaluation report or concise leadership briefing.
+
+My overall sequence is: understand the program, clarify the decision, define evaluation questions, establish indicators, assess the data, analyse rigorously, interpret with stakeholders, and translate the evidence into action.
+
+Follow-up question. What if there is no baseline?
+
+I would first ask what credible comparison can still be constructed. Options might include historical administrative data, a phased rollout, a comparable service or population, repeated post-implementation measures, or an interrupted time-series design if enough pre-intervention observations exist. If none is defensible, I would be explicit that the evaluation can assess implementation and outcomes but has limited causal attribution.
+
+Follow-up question. What outcomes would you use?
+
+I would derive them from the program's theory of change. For Student Wellness, I would separate process measures such as reach, wait time and completion from outcomes such as student-reported improvement, functioning, satisfaction or appropriate service-specific clinical outcomes. I would also examine equity in both access and outcomes.
+
+Follow-up question. How would you incorporate qualitative data?
+
+I would use qualitative data to answer questions the administrative data cannot: why students do or do not access a service, how they experience it, and what implementation barriers providers observe. I would integrate those findings with quantitative patterns so the evaluation explains not only what changed, but also plausible mechanisms and context.
+
+Follow-up question. How would you assess causality?
+
+I would match the strength of the causal claim to the design. Where randomization is not feasible, I would look for a credible counterfactual through approaches such as controlled before-and-after designs, interrupted time series or other quasi-experimental methods. I would examine alternative explanations, secular trends and confounding, and be explicit about residual limitations.
+
+Question. Scenario: Counselling utilization increased by 30% this year. Leadership asks you to explain why. What would you do?
+
+My first step would be not to assume that a 30% increase in utilization means underlying mental-health need increased by 30%. I would first validate the indicator and understand exactly what it represents: visits or unique students, all services or one service, and whether definitions, systems or reporting completeness changed.
+
+Once I was confident the signal was real, I would decompose it. I would examine unique students versus repeat visits, service type, referral pathways, wait times, capacity, academic calendar and seasonality. I would also use an appropriate denominator because raw counts could be misleading if enrolment or the population eligible for the service changed.
+
+Next, I would examine whether the increase is concentrated in particular services or student populations, while protecting confidentiality and avoiding unstable estimates from very small cells. I would then investigate context: new services, expanded hours, outreach campaigns, changes in referral practices or other operational changes that could increase access.
+
+Only after those checks would I assess whether the pattern is consistent with increasing underlying need. I would present leadership with the most plausible explanations, evidence supporting each, key limitations, and any additional data needed to distinguish between competing explanations.
+
+Follow-up question. What dashboard metrics would you show?
+
+I would start with unique students served, visit volume, new versus returning users, wait time, service completion, referral source, capacity, no-shows or cancellations, selected outcomes, and equity indicators. I would show trends and denominators, not just current counts, and keep the top-level dashboard focused on metrics tied to decisions.
+
+Follow-up question. How would you distinguish demand from access?
+
+I would triangulate utilization with indicators of unmet need and service capacity. Increased visits could reflect increased need, but also expanded hours, better awareness or easier access. I would look at waitlists, wait times, referral volumes, appointment availability, survey measures of need, and the proportion of students seeking versus receiving care.
+
+Follow-up question. What denominator would you use?
+
+It depends on the question. For overall reach, the enrolled or otherwise eligible student population may be appropriate. For service uptake, I may need the population with an identified need or referral. I would define the denominator before interpreting the numerator and use subgroup-specific denominators for equity comparisons.
+
+Question. Tell us about your experience with large institutional health datasets.
+
+At CAREX Canada and BCCDC, I have worked with large linked Canadian population and health datasets, including Canadian Census Health and Environment Cohorts, cancer registry data, national surveys and administrative information.
+
+The challenge with these data is not simply volume. Different sources have different structures, variable definitions, coding systems, time periods and completeness. I start by understanding the data-generating process and developing clear specifications for how variables and outcomes should be harmonized. I profile the data, assess keys and join cardinality, examine missingness and duplicates, standardize definitions and perform reconciliation checks after integration.
+
+For cancer outcomes, I have worked with standardized ICD coding to ensure that outcomes are consistently defined before analysis. I have then used methods including survival and multivariable analysis in R and SAS.
+
+Because these are sensitive linked data, the work also requires secure research environments, privacy controls and careful output review. This experience would transfer well to Student Wellness, where administrative, survey and program data may come from multiple systems and need to be integrated carefully before they can support reliable decisions.
+
+Follow-up question. How do you validate a join?
+
+Before joining, I establish the expected unit of observation and key cardinality in each table. I check uniqueness and duplicates, perform the join, then reconcile row counts, matched and unmatched records, and key variables before and after. I also spot-check records and investigate unexpected many-to-many relationships rather than assuming a technically successful join is correct.
+
+Follow-up question. How do you deal with conflicting definitions?
+
+I trace each definition back to its source, purpose and time period, then work with data owners to establish the operational definition needed for the analysis. I create a data dictionary or mapping, document any harmonization rules, and avoid silently treating similarly named variables as equivalent.
+
+Follow-up question. What is your experience with administrative data?
+
+My Canadian work has involved linked census, survey, cancer-registry and administrative health information in secure environments. That required understanding data provenance, harmonizing definitions and coding, validating linkages, handling missingness and using the data only within approved governance and disclosure rules.
+
+Question. How do you ensure data quality and consistency across multiple systems?
+
+I treat data quality as part of the entire analytical lifecycle rather than a one-time cleaning exercise. I begin by establishing expectations: record counts, unique identifiers, permissible values, date ranges, variable definitions and relationships between tables.
+
+I then assess completeness, duplicates, missingness, outliers, inconsistent coding and logical inconsistencies. When combining systems, I explicitly check join cardinality and reconcile counts before and after joins because an incorrect many-to-many join can produce plausible-looking but incorrect results.
+
+I also examine changes over time. A sudden increase in an indicator could represent a real change, but it could also reflect a new reporting definition, a system migration, expanded service capacity or improved data completeness. I document transformations and assumptions and, where possible, automate reproducible validation checks.
+
+My guiding principle is that a sophisticated statistical model cannot compensate for poorly understood data. Before interpreting a result, I want to understand where the data came from, what they actually measure and what limitations they carry.
+
+Follow-up question. Give us an example of a data-quality problem you found.
+
+In linked Canadian health-data work, I encountered a recoding issue that produced results inconsistent with the underlying clinical and epidemiological context. I traced the variable back through the source documentation, corrected the transformation, reran the affected analysis and added explicit validation checks. The lesson was to validate meaning, not just data type and range.
+
+Follow-up question. How do you document definitions?
+
+I maintain a clear data dictionary and analysis specification showing source variable, operational definition, coding, derivation, permissible values and any transformation. For derived indicators, I document the numerator, denominator and exclusions. I also keep code versioned so the implemented definition is reproducible.
+
+Follow-up question. What would you do if two systems disagree?
+
+I would not arbitrarily choose one. I would determine whether the systems measure the same event, examine timing and update rules, identify the system of record where one exists, quantify the disagreement, and consult the data owners. The reconciliation rule and any unresolved discrepancy would be documented.
+
+Question. How would you incorporate equity into Student Wellness evaluation?
+
+I would treat equity as part of the evaluation design rather than an analysis added at the end. The first question is whether the program is reaching the populations it intends to serve relative to underlying need, not simply whether one group has more visits than another.
+
+That means choosing appropriate denominators, examining representation and missingness, and where data permit, comparing access, wait times, service completion and outcomes across relevant student populations. I would be careful with small cells and unstable estimates, both for privacy and interpretation.
+
+Quantitative differences also need context. Where appropriate, I would complement administrative or survey data with qualitative evidence and stakeholder engagement to understand barriers that may not be visible in routine data.
+
+Finally, I would avoid framing group differences as deficits within students themselves. The purpose would be to identify potentially modifiable barriers in access, service design or institutional processes and translate those findings into practical improvements.
+
+Follow-up question. What if demographic data are incomplete?
+
+I would first quantify and characterize the missingness rather than treating 'unknown' as a neutral category. I would assess whether missingness differs by service, time or other observed characteristics, be cautious about subgroup comparisons, and clearly report the limitation. I would also work upstream on improving responsible demographic data collection if the information is important for equity monitoring.
+
+Follow-up question. How would you report small groups?
+
+I would prioritize both confidentiality and interpretability. Depending on policy and context, I might suppress counts, aggregate time periods or categories, report ranges or qualitative findings, and avoid cross-tabulations that enable re-identification. I would explain that absence from a table does not mean the group's experience is unimportant.
+
+Follow-up question. What does an equitable service look like?
+
+An equitable service is not necessarily one where every group uses it at the same rate. It is one where access, quality and outcomes are responsive to differing levels of need and where avoidable barriers are minimized. I would therefore look at need, reach, timeliness, experience and outcomes together.
+
+Question. Explain the Five Safes framework you referenced in your questionnaire.
+
+I think of the Five Safes as a structured way of managing disclosure risk while still enabling useful research. The five dimensions are safe people, safe projects, safe settings, safe data and safe outputs.
+
+Safe people means ensuring that individuals accessing sensitive data are appropriately authorized and understand their responsibilities. Safe projects means that the use of the data is legitimate, approved and aligned with the stated purpose. Safe settings refers to conducting the work in an appropriately controlled environment. Safe data means managing the level of identifiability and limiting information to what is necessary. Safe outputs means reviewing results before release so that tables, figures or other products do not inadvertently disclose confidential information.
+
+In my Canadian linked-data work, these principles are practical rather than theoretical. They affect who can access the data, where analysis occurs, which variables are available, how analytical files are constructed and what can leave the secure environment. I would bring the same privacy-by-design mindset to sensitive student wellness data, while following the University's specific governance policies and applicable legislation.
+
+Follow-up question. What is safe output?
+
+A safe output is a result that has been checked so it does not disclose or enable inference about identifiable individuals. That can involve minimum cell-size rules, suppressing complementary cells, limiting overly granular cross-tabulations, reviewing extreme values and ensuring that combinations of variables cannot reveal a person.
+
+Follow-up question. How would you handle small cells?
+
+I would follow the University's disclosure rules, which may require suppression, aggregation or broader reporting categories. I would also consider statistical stability, not only confidentiality. If a subgroup is important but cannot be reported quantitatively, I would look for another responsible way to represent the issue without exposing individuals.
+
+Follow-up question. What if a senior leader asks for identifiable data?
+
+I would clarify the purpose and authority for the request and determine whether identifiable information is actually necessary. If aggregated or de-identified information can answer the question, I would use that. If the request is outside approved access or purpose, I would involve the appropriate privacy or governance office rather than release the data based on seniority.
+
+Question. The posting names PHIPA and FIPPA specifically. How does your privacy experience map onto Ontario's legislation? [NEW]
+
+My direct experience is with federal and BC frameworks - Statistics Canada's Secure RDC protocols and OCAP principles for Indigenous data at FNHA - rather than PHIPA and FIPPA specifically. The underlying logic is the same: purpose limitation, minimum necessary access, and controlled disclosure. But I'd be upfront that I would need to get up to speed quickly on Guelph's specific interpretation and procedures under PHIPA for health information and FIPPA for broader institutional records, and I'd want to work closely with the university's privacy office early on to make sure my practices align precisely with their policies rather than assuming my Canadian federal experience transfers one-to-one.
+
+Follow-up question. Have you worked directly with PHIPA or FIPPA before?
+
+Not directly. My hands-on privacy experience has been within Statistics Canada secure research environments, BC health and research settings, and OCAP-informed governance at FNHA. I would be transparent about that distinction while bringing a strong foundation in purpose limitation, minimum necessary access, secure analysis and disclosure control, and I would learn Guelph's PHIPA/FIPPA procedures quickly.
+
+Follow-up question. How would you handle a request that's unclear under Ontario's rules specifically?
+
+I would not improvise a legal interpretation. I would clarify the purpose and data involved, consult the University's privacy policies and the appropriate privacy or legal contact, and document the decision. My role would be to help find a compliant way to meet the operational need rather than either releasing information prematurely or blocking a legitimate use unnecessarily.
+
+Question. How would you handle a senior leader requesting identifiable student-level information?
+
+I would first clarify the purpose of the request and the decision the leader is trying to make. Seniority alone would not determine whether identifiable data should be released.
+
+I would assess whether the requested information is authorized for that purpose and whether the decision can be supported with less identifiable information. In many cases, aggregated or appropriately de-identified data may answer the operational question without exposing individual-level information.
+
+If the request fell outside the approved purpose, access permissions or privacy requirements, I would explain the limitation clearly and work with the appropriate privacy or data-governance contacts to identify a compliant alternative. My goal would be to support the decision while applying data minimization, purpose limitation and appropriate disclosure controls.
+
+Follow-up question. What if the request is urgent?
+
+Urgency changes the turnaround time, not the privacy standard. I would quickly clarify the decision need, provide the least identifiable information that can answer it, and escalate promptly to the appropriate privacy or governance contact if authorization is uncertain.
+
+Follow-up question. How do you balance access and privacy?
+
+I use a proportional approach: provide enough information for the legitimate purpose while minimizing identifiability and unnecessary access. Good governance should enable appropriate use, not simply restrict data. The key is matching the level of detail and access to the decision and the user's authorization.
+
+Question. The posting mentions this role may contribute to ethics review processes. What is your experience with REB/ethics review? [NEW]
+
+My research has consistently operated within research ethics board approval and governance frameworks - OCAP-governed Indigenous data at FNHA, secure research environment protocols for the Statistics Canada linked data at CAREX, and WHO's own ethics oversight for the Malawi coverage surveys. That said, I'd be honest that my direct experience has been operating within approved protocols rather than authoring REB submissions myself. I understand what reviewers weigh - risk, consent, privacy, data security, and community impact - and I'd bring that grounding to supporting ethics review processes here, while expecting a learning curve on Guelph's specific REB process itself.
+
+Follow-up question. Have you sat on an REB or ethics committee?
+
+No. My direct experience has been conducting research within approved ethics and governance frameworks rather than serving as an REB member. That has given me practical familiarity with consent, privacy, protocol adherence and data-security requirements, and I would bring that foundation while learning Guelph's committee processes.
+
+Follow-up question. Have you drafted a protocol yourself?
+
+I have contributed to research design, methods, analytical plans and study documentation, but I would distinguish that from independently leading a full REB submission if that is what you mean. I am comfortable translating research questions into methods and data-management procedures, and I would build on that experience with the University's templates and guidance.
+
+Question. Tell us about your experience with R, SAS and SQL.
+
+I use R, SAS and SQL as complementary tools. SQL is particularly useful when working with relational data - extracting records, joining tables, aggregating information, creating derived fields and performing data-quality queries close to the source.
+
+R is my primary analytical environment. I use it extensively for data management, statistical modelling, visualization, geospatial analysis and reproducible workflows. My recent work has included generalized linear models, mixed-effects models, survival analysis and spatial statistics.
+
+I have also worked with SAS in Canadian health-data environments, particularly where established workflows and large administrative or linked datasets are involved.
+
+I choose the tool based on the data environment, governance requirements and workflow rather than forcing every task into one platform. A practical workflow might use SQL to build or query the analytical dataset and R or SAS for statistical analysis and reporting.
+
+Follow-up question. Which is your strongest language?
+
+R is my strongest analytical language. I use it for data management, regression and mixed-effects modelling, survival analysis, geospatial analysis, visualization and reproducible reporting. SQL is strong for querying and structuring relational data, and I have practical SAS experience in Canadian linked-data environments.
+
+Follow-up question. Give an example of a complex SQL task.
+
+A typical complex task is constructing an analysis-ready cohort from several relational tables: joining records using validated keys, applying eligibility and date-window rules, deriving indicators with CASE expressions, aggregating repeated events, and using window functions where needed while reconciling row counts to ensure the joins have not duplicated records.
+
+Follow-up question. How quickly can you adapt to an existing SAS workflow?
+
+Quite quickly. I already understand SAS data steps, procedures and the logic of working in controlled health-data environments. More importantly, I am comfortable reading existing code, tracing inputs and outputs, validating results against established reports, and learning local conventions rather than trying to rewrite a functioning workflow in my preferred tool.
+
+Question. How do you translate complex analysis for non-technical leaders?
+
+I start with the decision the audience needs to make rather than the statistical method I used. In my Malawi work, for example, regression and spatial statistics were important for scientific validity, but program managers did not need a technical lecture on every coefficient or spatial statistic.
+
+They needed to know where coverage was lower, which populations or communities appeared underserved, what barriers might explain the pattern, how confident we were in the findings and what actions the evidence supported. I translated the analysis into maps, concise summaries and an interactive dashboard that allowed stakeholders to explore geographic patterns.
+
+I generally use layered communication: a clear headline and implications for leadership, accessible visualizations for exploration, and technical documentation for those who need methodological detail. My goal is to simplify the communication without oversimplifying the science.
+
+Follow-up question. How would you present an inconclusive result?
+
+I would say clearly that the evidence is inconclusive, show the effect estimate and uncertainty, and explain why certainty is limited-for example sample size, measurement or design. I would still identify what the result rules out, what remains plausible, and what additional evidence would most improve the decision.
+
+Follow-up question. What if leadership wants one number?
+
+I would give them the most decision-relevant headline number if one is defensible, but pair it with the minimum context needed to interpret it-usually the denominator, comparison, time period and uncertainty. I would avoid giving a precise-looking number that answers the wrong question.
+
+Follow-up question. How do you tailor communication to different audiences?
+
+I keep the underlying analysis consistent but change the level of detail. Leadership gets the decision, key evidence, uncertainty and recommended action; operational teams get enough detail to understand where and how to act; technical audiences receive methods, assumptions and diagnostics. I use the same evidence with different layers of explanation.
+
+Question. How would you design a dashboard for Student Wellness leadership?
+
+I would start with decisions, not charts. I would meet with leadership and operational users to identify the questions they need the dashboard to answer and which actions could follow from the information.
+
+For Student Wellness, useful domains might include service demand and utilization, unique students served, access and wait times, capacity, referral pathways, program reach, selected outcomes, student experience and equity indicators. I would distinguish operational indicators that need frequent monitoring from longer-term evaluation outcomes.
+
+I would establish consistent metric definitions and denominators, include trend context rather than isolated numbers, and build appropriate privacy protections such as suppression or aggregation for small cells. I would also avoid overloading the dashboard; the most important indicators should be immediately visible, with drill-down available when useful.
+
+Finally, I would test the dashboard with intended users and revisit it as decision needs change. A good dashboard is not simply visually attractive - it should make the next question or decision easier.
+
+Follow-up question. Which KPIs would you prioritize?
+
+I would prioritize a small set tied to decisions: unique students served, demand relative to capacity, wait time, service completion, referral flow, selected outcomes or experience measures, and equity in reach and timeliness. The exact set should follow Student Wellness priorities and established definitions rather than my arriving with a fixed dashboard.
+
+Follow-up question. How would you prevent misinterpretation?
+
+I would use clear metric definitions, appropriate denominators, trend context and annotations for major operational changes. I would avoid ambiguous percentages, flag suppressed or unstable estimates, and provide drill-down or documentation so users can understand what a metric does and does not mean.
+
+Follow-up question. What visualization tools have you used?
+
+I have used R extensively for publication and decision-support graphics, ArcGIS Pro and QGIS for geospatial visualization, and Shiny for interactive dashboards. I also have exposure to BI tools such as Power BI and Tableau. I focus on the decision and audience first, then choose the tool that fits the environment.
+
+Question. Tell us about a time you had competing priorities or tight deadlines.
+
+In public-health and research settings, I have often had to balance planned analytical work with time-sensitive requests from program or research teams. My approach is to clarify urgency and decision impact first, identify what is genuinely time-critical, and agree on the minimum defensible product needed for the immediate decision.
+
+I break the work into components, communicate what can be delivered by when, and protect the steps that cannot be compromised - particularly data validation and accurate interpretation. If a more comprehensive analysis is needed, I separate the rapid response from the deeper follow-up rather than trying to produce everything at once.
+
+I also communicate early when priorities conflict. I would rather make trade-offs explicit with stakeholders than silently miss a deadline or compromise quality. That approach has helped me remain responsive while maintaining analytical rigor.
+
+Follow-up question. Give us a specific example.
+
+In the Malawi MDA project, I had to balance planned epidemiological and spatial analyses with requests for outputs that could support program decisions. I prioritized validating the core coverage indicators and producing decision-ready district and cluster summaries first, then completed the more detailed modelling and spatial analyses in a reproducible workflow. That let the team get useful information without sacrificing the integrity of the final analysis.
+
+Follow-up question. What do you do when two senior leaders both say their request is urgent?
+
+I clarify the decision deadline, consequence of delay, effort required and dependencies for each request, then make the trade-off visible. If I cannot meet both, I would propose a minimum defensible deliverable for the more time-sensitive decision and agree on a revised timeline for the other rather than privately guessing whose request matters more.
+
+Question. Tell us about a time a stakeholder disagreed with your findings or interpretation.
+
+When there is disagreement, my first step is to understand whether the disagreement is about the data, the method, the interpretation or the operational implications. I try not to become defensive because stakeholders often have contextual knowledge that can improve the analysis.
+
+I would walk through the definitions, assumptions and evidence transparently, invite the stakeholder to explain what they believe is missing, and test reasonable alternative explanations or sensitivity analyses where appropriate. If the evidence changes, I update the conclusion. If it does not, I explain clearly what the data support and what they do not support.
+
+The objective is not to "win" the disagreement. It is to reach the most defensible interpretation while preserving trust and scientific integrity.
+
+Follow-up question. Can you give us a concrete example?
+
+In applied public-health work, stakeholders can reasonably focus on an overall program indicator while the analysis shows meaningful variation underneath it. My approach has been to walk them through the denominator, geographic or population differences and the evidence behind the interpretation, then use maps or stratified summaries to make the pattern visible. That turns disagreement into a question we can test rather than a personal dispute.
+
+Follow-up question. What if a leader pressures you to change a conclusion?
+
+I would separate wording from evidence. I am happy to make language clearer, add context or test a reasonable alternative analysis, but I would not change a conclusion simply to make it more comfortable. I would document the analysis and explain what the data support, escalating through appropriate scientific or governance channels if necessary.
+
+Question. What would your first 90 days look like?
+
+My first priority would be to understand the environment before proposing major changes. I would meet with Student Wellness and Student Affairs leaders, program teams and key data partners to understand current priorities, reporting obligations, evaluation needs and pain points.
+
+In parallel, I would map the major data sources, ownership, access processes, definitions and existing dashboards or reports. I would want to understand how counselling, health, wellness or other program information flows from service delivery into reporting and where data-quality or governance issues currently exist.
+
+I would then review the existing evaluation portfolio: what programs are being evaluated, what indicators are already used, what leadership needs regularly, and what upcoming decisions require evidence. From there, I would identify a small number of high-value early deliverables while developing a more systematic evaluation and analytics roadmap.
+
+By the end of the first 90 days, I would want stakeholders to see me as a trusted analytical partner who understands their programs, asks useful questions, delivers reliably and is beginning to strengthen consistency across evaluation, data and reporting.
+
+Follow-up question. What would be your first deliverable?
+
+I would want the first deliverable to solve a real problem while helping me learn the environment. A strong candidate would be a concise data-and-evaluation landscape: priority decisions, key data sources, metric definitions, known quality or governance issues, and one early analysis or reporting improvement agreed with the team.
+
+Follow-up question. How would you build relationships?
+
+I would spend time understanding what each group is responsible for, what decisions they make, what frustrates them about current data and what a useful analytical partnership looks like. I would build trust through small reliable deliveries, transparent communication and by involving program experts in interpretation rather than treating analysis as something done to them.
+
+Follow-up question. What if the data environment is fragmented?
+
+I would first map the systems, owners, keys, definitions and flows rather than immediately trying to combine everything. Then I would identify a few high-value integration use cases, establish common definitions and validation rules, and build incrementally. Fragmentation is manageable when provenance and governance are clear.
+
+Question. Why should we hire you?
+
+I bring a combination that aligns closely with this role. I have strong quantitative skills and substantial experience working with complex health, survey and administrative data using R, SAS and SQL. But my background is also in applied epidemiology and public health, so I do not approach analysis as simply producing numbers. I start with the underlying program or health question and think carefully about study design, measurement, bias, data quality and interpretation.
+
+I have worked across the full evidence-to-action process - from developing analytical approaches and managing sensitive data to statistical and geospatial analysis, dashboards, communication and recommendations for programs.
+
+I also understand the university environment. My MPH training at UBC and my campus food-security work gave me direct experience with issues affecting students and with translating research and stakeholder perspectives into institutional decision-making.
+
+What excites me about this role is the opportunity to bring those pieces together. I would come in not only as someone who can analyse Student Wellness data, but as someone who can help the team ask the right questions, evaluate programs rigorously, protect sensitive information and turn evidence into practical decisions that improve student services.
+
+Follow-up question. What is your biggest strength for this role?
+
+My biggest strength is connecting rigorous analysis to the decision it needs to support. I can work technically with complex health data, but I also think about measurement, evaluation design, privacy, equity and communication. That helps me produce analysis that is not only statistically sound but usable.
+
+Follow-up question. What would be your learning curve?
+
+The main learning curve would be Guelph's specific Student Wellness data systems, operational workflows and Ontario-specific privacy procedures. I would not pretend to know those before joining. What I bring is experience learning complex health-data environments quickly, asking the right provenance and governance questions, and working collaboratively with subject-matter experts.
+
+Question. What is an area you're still developing, or a project that didn't go the way you planned? [NEW]
+
+If asked for a weakness/growth area: One area I'm still building is direct grant-writing experience. I've contributed data, evidence and background material to funding proposals and reports, but I haven't yet led a grant application from start to finish. I'm conscious of that gap and would expect to lean on the team's existing grant processes while I build that skill directly.
+
+If asked for a time something didn't go as planned: While working on the CAREX Canada / CanCHEC linkage examining air pollution and cancer outcomes, I discovered partway through analysis that the sex variable had been miscoded during data harmonization - effectively reversed relative to the source data dictionary. It surfaced because sex-specific results for some of the cancers we studied looked biologically implausible. Rather than assume the finding was real, I stopped, traced the discrepancy back through the original data dictionaries for each linked source, and found the recoding error. I corrected it, re-ran the affected analyses, and built an explicit validation check - cross-tabulating sex against sex-specific outcomes - into that pipeline going forward. It reinforced something I now do by default: check that a result makes biological and logical sense before trusting it, especially after linking or recoding data from multiple sources.
+
+Follow-up question. What would have happened if you hadn't caught it?
+
+The affected analysis could have produced a misleading interpretation and undermined confidence in later results. That is why I treat plausibility checks as part of quality assurance rather than assuming that code running without an error means the analysis is correct.
+
+Follow-up question. How did you first notice something was off?
+
+The pattern in the sex-specific results did not make sense relative to the outcome and the source documentation. That prompted me to trace the variable back through the harmonization steps rather than interpreting the unexpected result as a novel finding.
+
+Follow-up question. What checks do you build in now to catch this earlier?
+
+I build validation around every major transformation: frequency tables before and after recoding, cross-tabs against source variables, checks of expected ranges and missingness, row-count reconciliation after joins, and plausibility checks against known data structure or clinically meaningful relationships.
+
+Question. Six-Story STAR Bank
+
+Story
+
+Use it for
+
+STAR backbone
+
+Lesson
+
+Malawi / WHO MDA
+
+Evaluation; spatial analysis; dashboard; action
+
+Overall coverage hid local gaps. Developed reproducible R/ArcGIS workflow, examined uptake and geographic variation, and translated results into maps/dashboard for targeted follow-up.
+
+Analysis should end in a decision, not a table.
+
+CAREX / BCCDC CanCHEC
+
+Large linked data; SAS/R; ICD; privacy
+
+Worked with national survey, census-linked cohort and cancer data; harmonized definitions, validated data, standardized ICD-coded outcomes and analysed within secure environments.
+
+Understand provenance and definitions before modelling.
+
+UBC Campus Food Security
+
+Student context; evaluation; stakeholder engagement
+
+Led campus work examining food security and translated research and stakeholder perspectives into evidence for institutional planning.
+
+Student experience requires both data and stakeholder context.
+
+Smart Discharges
+
+Clinical research; longitudinal/geospatial analysis
+
+Worked with pediatric post-discharge outcomes across multiple hospitals and applied rigorous epidemiological and spatial methods.
+
+Methods must match the structure and decision question.
+
+FNHA
+
+Data governance; respectful stewardship
+
+Worked in a setting where data governance, appropriate use and stakeholder relationships are central.
+
+Good analytics depends on trust and responsible stewardship.
+
+WHO / broader public health
+
+Prioritization; independence; deadlines
+
+Balance planned research with operational requests and translate complex evidence for program decisions.
+
+Be responsive without compromising validity.
+
+CAREX / CanCHEC sex-coding error
+
+Self-awareness; data validation; resilience (Q23)
+
+Discovered mid-analysis that the sex variable had been miscoded during data harmonization, producing biologically implausible sex-specific results. Traced it back through source data dictionaries, corrected it, and re-ran analyses before results were finalized.
+
+Verify a result makes biological/logical sense before trusting it - build validation checks in after every join or recode.
+
+Question. Rapid Technical Questions to Rehearse
+
+Difference between WHERE and HAVING?
+
+WHERE filters rows before aggregation; HAVING filters groups after aggregation.
+
+INNER JOIN vs LEFT JOIN?
+
+INNER JOIN keeps matching records in both tables; LEFT JOIN retains all records from the left table and matched records from the right.
+
+How do you detect duplicates?
+
+Define the expected unit/key first, then count records by key and investigate keys with counts greater than one.
+
+What is join cardinality?
+
+The expected relationship between keys across tables - one-to-one, one-to-many, many-to-one or many-to-many. Checking it prevents accidental row multiplication.
+
+Missing data approach?
+
+First determine amount, pattern, mechanism and importance; compare complete/incomplete records; then choose transparent handling such as complete-case, indicator/weighting or imputation where justified.
+
+Statistical significance vs practical significance?
+
+A small effect can be statistically significant in a large dataset but operationally unimportant. Interpretation should consider effect size, uncertainty, context and decision relevance.
+
+When use qualitative data?
+
+When understanding experience, implementation, mechanisms or barriers requires context that routine quantitative data cannot provide.
+
+What is a logic model?
+
+A representation of how program inputs and activities are expected to produce outputs and short-, intermediate- and long-term outcomes.
+
+Process vs outcome evaluation?
+
+Process evaluation asks whether/how implementation occurred; outcome evaluation asks whether intended changes occurred.
+
+What is an interrupted time series?
+
+A quasi-experimental approach that examines whether the level or trend of an outcome changes after an intervention while accounting for the pre-intervention trajectory.
+
+Question. Questions to Ask the Panel
+
+What are the most important evaluation or analytics priorities you would want the successful candidate to address in the first six months?
+
+How are Student Wellness data currently organized across services, and where do you see the biggest opportunities to strengthen integration or reporting?
+
+How does this role typically work with program leaders and frontline teams when developing evaluation questions and interpreting findings?
+
+What would success look like for the person in this role after one year?
+
+Are there particular initiatives, including the President's Taskforce on Student Mental Health, that will be a major focus for this position during the coming year?
+
+Use two or three questions depending on time. Prioritize questions that reveal what the team needs and allow you to connect your experience back to those needs.
+
+Question. Day-of Interview Cheat Sheet
+
+Answer the question first, then give the example. Avoid long background before the point.
+
+For behavioural questions: Situation/Task (20%), Action (60%), Result/Learning (20%).
+
+Use "I" when describing your contribution and "we" when describing the team or project.
+
+Keep most scored answers around 1.5-2.5 minutes unless the panel asks for more.
+
+When discussing Student Wellness, distinguish service utilization from underlying need.
+
+When discussing equity, use appropriate denominators and consider who is missing from the data.
+
+When discussing privacy, emphasize purpose limitation, minimum necessary data, secure access and safe outputs.
+
+When discussing dashboards, begin with the decisions users need to make, not visualization software.
+
+Do not overclaim causal inference. State what the design and data can and cannot support.
+
+Close answers with the implication: what changed, what decision was supported, or what you learned.
+
+FINAL MESSAGE TO LEAVE WITH THE PANEL
+
+"I can do the analysis, but I also understand what analysis is needed, how to evaluate programs rigorously, how to protect sensitive data, and how to translate evidence into decisions that improve student services."

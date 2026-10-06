@@ -1,0 +1,123 @@
+Question. Explain the Five Safes framework you referenced in your questionnaire.
+
+I think of the Five Safes as a structured way of managing disclosure risk while still enabling useful research. The five dimensions are safe people, safe projects, safe settings, safe data and safe outputs.
+
+Safe people means ensuring that individuals accessing sensitive data are appropriately authorized and understand their responsibilities. Safe projects means that the use of the data is legitimate, approved and aligned with the stated purpose. Safe settings refers to conducting the work in an appropriately controlled environment. Safe data means managing the level of identifiability and limiting information to what is necessary. Safe outputs means reviewing results before release so that tables, figures or other products do not inadvertently disclose confidential information.
+
+In my Canadian linked-data work, these principles are practical rather than theoretical. They affect who can access the data, where analysis occurs, which variables are available, how analytical files are constructed and what can leave the secure environment. I would bring the same privacy-by-design mindset to sensitive student wellness data, while following the University's specific governance policies and applicable legislation.
+
+Follow-up question. What is safe output?
+
+A safe output is a result that has been checked so it does not disclose or enable inference about identifiable individuals. That can involve minimum cell-size rules, suppressing complementary cells, limiting overly granular cross-tabulations, reviewing extreme values and ensuring that combinations of variables cannot reveal a person.
+
+Follow-up question. How would you handle small cells?
+
+I would follow the University's disclosure rules, which may require suppression, aggregation or broader reporting categories. I would also consider statistical stability, not only confidentiality. If a subgroup is important but cannot be reported quantitatively, I would look for another responsible way to represent the issue without exposing individuals.
+
+Follow-up question. What if a senior leader asks for identifiable data?
+
+I would clarify the purpose and authority for the request and determine whether identifiable information is actually necessary. If aggregated or de-identified information can answer the question, I would use that. If the request is outside approved access or purpose, I would involve the appropriate privacy or governance office rather than release the data based on seniority.
+
+Question. The posting names PHIPA and FIPPA specifically. How does your privacy experience map onto Ontario's legislation? [NEW]
+
+My direct experience is with federal and BC frameworks - Statistics Canada's Secure RDC protocols and OCAP principles for Indigenous data at FNHA - rather than PHIPA and FIPPA specifically. The underlying logic is the same: purpose limitation, minimum necessary access, and controlled disclosure. But I'd be upfront that I would need to get up to speed quickly on Guelph's specific interpretation and procedures under PHIPA for health information and FIPPA for broader institutional records, and I'd want to work closely with the university's privacy office early on to make sure my practices align precisely with their policies rather than assuming my Canadian federal experience transfers one-to-one.
+
+Follow-up question. Have you worked directly with PHIPA or FIPPA before?
+
+Not directly. My hands-on privacy experience has been within Statistics Canada secure research environments, BC health and research settings, and OCAP-informed governance at FNHA. I would be transparent about that distinction while bringing a strong foundation in purpose limitation, minimum necessary access, secure analysis and disclosure control, and I would learn Guelph's PHIPA/FIPPA procedures quickly.
+
+Follow-up question. How would you handle a request that's unclear under Ontario's rules specifically?
+
+I would not improvise a legal interpretation. I would clarify the purpose and data involved, consult the University's privacy policies and the appropriate privacy or legal contact, and document the decision. My role would be to help find a compliant way to meet the operational need rather than either releasing information prematurely or blocking a legitimate use unnecessarily.
+
+Question. How would you handle a senior leader requesting identifiable student-level information?
+
+I would first clarify the purpose of the request and the decision the leader is trying to make. Seniority alone would not determine whether identifiable data should be released.
+
+I would assess whether the requested information is authorized for that purpose and whether the decision can be supported with less identifiable information. In many cases, aggregated or appropriately de-identified data may answer the operational question without exposing individual-level information.
+
+If the request fell outside the approved purpose, access permissions or privacy requirements, I would explain the limitation clearly and work with the appropriate privacy or data-governance contacts to identify a compliant alternative. My goal would be to support the decision while applying data minimization, purpose limitation and appropriate disclosure controls.
+
+Follow-up question. What if the request is urgent?
+
+Urgency changes the turnaround time, not the privacy standard. I would quickly clarify the decision need, provide the least identifiable information that can answer it, and escalate promptly to the appropriate privacy or governance contact if authorization is uncertain.
+
+Follow-up question. How do you balance access and privacy?
+
+I use a proportional approach: provide enough information for the legitimate purpose while minimizing identifiability and unnecessary access. Good governance should enable appropriate use, not simply restrict data. The key is matching the level of detail and access to the decision and the user's authorization.
+
+Question. The posting mentions this role may contribute to ethics review processes. What is your experience with REB/ethics review? [NEW]
+
+My research has consistently operated within research ethics board approval and governance frameworks - OCAP-governed Indigenous data at FNHA, secure research environment protocols for the Statistics Canada linked data at CAREX, and WHO's own ethics oversight for the Malawi coverage surveys. That said, I'd be honest that my direct experience has been operating within approved protocols rather than authoring REB submissions myself. I understand what reviewers weigh - risk, consent, privacy, data security, and community impact - and I'd bring that grounding to supporting ethics review processes here, while expecting a learning curve on Guelph's specific REB process itself.
+
+Follow-up question. Have you sat on an REB or ethics committee?
+
+No. My direct experience has been conducting research within approved ethics and governance frameworks rather than serving as an REB member. That has given me practical familiarity with consent, privacy, protocol adherence and data-security requirements, and I would bring that foundation while learning Guelph's committee processes.
+
+Follow-up question. Have you drafted a protocol yourself?
+
+I have contributed to research design, methods, analytical plans and study documentation, but I would distinguish that from independently leading a full REB submission if that is what you mean. I am comfortable translating research questions into methods and data-management procedures, and I would build on that experience with the University's templates and guidance.
+
+Question. Tell us about your experience with R, SAS and SQL.
+
+I use R, SAS and SQL as complementary tools. SQL is particularly useful when working with relational data - extracting records, joining tables, aggregating information, creating derived fields and performing data-quality queries close to the source.
+
+R is my primary analytical environment. I use it extensively for data management, statistical modelling, visualization, geospatial analysis and reproducible workflows. My recent work has included generalized linear models, mixed-effects models, survival analysis and spatial statistics.
+
+I have also worked with SAS in Canadian health-data environments, particularly where established workflows and large administrative or linked datasets are involved.
+
+I choose the tool based on the data environment, governance requirements and workflow rather than forcing every task into one platform. A practical workflow might use SQL to build or query the analytical dataset and R or SAS for statistical analysis and reporting.
+
+Follow-up question. Which is your strongest language?
+
+R is my strongest analytical language. I use it for data management, regression and mixed-effects modelling, survival analysis, geospatial analysis, visualization and reproducible reporting. SQL is strong for querying and structuring relational data, and I have practical SAS experience in Canadian linked-data environments.
+
+Follow-up question. Give an example of a complex SQL task.
+
+A typical complex task is constructing an analysis-ready cohort from several relational tables: joining records using validated keys, applying eligibility and date-window rules, deriving indicators with CASE expressions, aggregating repeated events, and using window functions where needed while reconciling row counts to ensure the joins have not duplicated records.
+
+Follow-up question. How quickly can you adapt to an existing SAS workflow?
+
+Quite quickly. I already understand SAS data steps, procedures and the logic of working in controlled health-data environments. More importantly, I am comfortable reading existing code, tracing inputs and outputs, validating results against established reports, and learning local conventions rather than trying to rewrite a functioning workflow in my preferred tool.
+
+Question. How do you translate complex analysis for non-technical leaders?
+
+I start with the decision the audience needs to make rather than the statistical method I used. In my Malawi work, for example, regression and spatial statistics were important for scientific validity, but program managers did not need a technical lecture on every coefficient or spatial statistic.
+
+They needed to know where coverage was lower, which populations or communities appeared underserved, what barriers might explain the pattern, how confident we were in the findings and what actions the evidence supported. I translated the analysis into maps, concise summaries and an interactive dashboard that allowed stakeholders to explore geographic patterns.
+
+I generally use layered communication: a clear headline and implications for leadership, accessible visualizations for exploration, and technical documentation for those who need methodological detail. My goal is to simplify the communication without oversimplifying the science.
+
+Follow-up question. How would you present an inconclusive result?
+
+I would say clearly that the evidence is inconclusive, show the effect estimate and uncertainty, and explain why certainty is limited-for example sample size, measurement or design. I would still identify what the result rules out, what remains plausible, and what additional evidence would most improve the decision.
+
+Follow-up question. What if leadership wants one number?
+
+I would give them the most decision-relevant headline number if one is defensible, but pair it with the minimum context needed to interpret it-usually the denominator, comparison, time period and uncertainty. I would avoid giving a precise-looking number that answers the wrong question.
+
+Follow-up question. How do you tailor communication to different audiences?
+
+I keep the underlying analysis consistent but change the level of detail. Leadership gets the decision, key evidence, uncertainty and recommended action; operational teams get enough detail to understand where and how to act; technical audiences receive methods, assumptions and diagnostics. I use the same evidence with different layers of explanation.
+
+Question. How would you design a dashboard for Student Wellness leadership?
+
+I would start with decisions, not charts. I would meet with leadership and operational users to identify the questions they need the dashboard to answer and which actions could follow from the information.
+
+For Student Wellness, useful domains might include service demand and utilization, unique students served, access and wait times, capacity, referral pathways, program reach, selected outcomes, student experience and equity indicators. I would distinguish operational indicators that need frequent monitoring from longer-term evaluation outcomes.
+
+I would establish consistent metric definitions and denominators, include trend context rather than isolated numbers, and build appropriate privacy protections such as suppression or aggregation for small cells. I would also avoid overloading the dashboard; the most important indicators should be immediately visible, with drill-down available when useful.
+
+Finally, I would test the dashboard with intended users and revisit it as decision needs change. A good dashboard is not simply visually attractive - it should make the next question or decision easier.
+
+Follow-up question. Which KPIs would you prioritize?
+
+I would prioritize a small set tied to decisions: unique students served, demand relative to capacity, wait time, service completion, referral flow, selected outcomes or experience measures, and equity in reach and timeliness. The exact set should follow Student Wellness priorities and established definitions rather than my arriving with a fixed dashboard.
+
+Follow-up question. How would you prevent misinterpretation?
+
+I would use clear metric definitions, appropriate denominators, trend context and annotations for major operational changes. I would avoid ambiguous percentages, flag suppressed or unstable estimates, and provide drill-down or documentation so users can understand what a metric does and does not mean.
+
+Follow-up question. What visualization tools have you used?
+
+I have used R extensively for publication and decision-support graphics, ArcGIS Pro and QGIS for geospatial visualization, and Shiny for interactive dashboards. I also have exposure to BI tools such as Power BI and Tableau. I focus on the decision and audience first, then choose the tool that fits the environment.

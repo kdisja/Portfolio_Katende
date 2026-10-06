@@ -1,0 +1,105 @@
+Question. Interview Strategy and Core Positioning
+
+The committee has already shortlisted you after reading your questionnaire. The interview should therefore deepen and validate the same candidate story rather than introduce a different one.
+
+Core positioning: I am an applied epidemiologist and data analyst who combines rigorous evaluation, complex health-data analysis, data governance, and knowledge mobilization to help leaders make evidence-informed decisions that improve programs and services.
+
+The four themes to reinforce repeatedly are: (1) rigorous evaluation and epidemiological thinking; (2) strong technical ability across R, SAS, SQL, geospatial analysis and visualization; (3) experience with sensitive, linked and administrative health data; and (4) ability to translate analysis into practical recommendations for non-technical decision-makers.
+
+Question. What the Committee Already Knows About You
+
+Your motivation is connected to your experience as an international student at UBC and your interest in how universities use evidence to understand diverse student needs, inequities and student experience.
+
+You led a UBC campus food-security project and used research and stakeholder perspectives to inform institutional planning and decision-making.
+
+Your current WHO-supported Malawi work uses population survey and geospatial data to evaluate onchocerciasis mass drug administration, identify geographic gaps and support targeted follow-up and resource allocation.
+
+You built a reproducible R/ArcGIS Pro workflow and an interactive dashboard to make complex findings accessible to technical and program audiences.
+
+At CAREX Canada/BCCDC, you have worked with CanCHEC, cancer registry, linked survey and administrative data, standardized ICD-coded outcomes, R and SAS, and secure research environments.
+
+You explicitly referenced the Five Safes model and privacy/confidentiality obligations in your questionnaire.
+
+You confirmed that the Guelph flexible work arrangement and posted salary range are acceptable.
+
+Question. Tell us about yourself and why are you interested in this role?
+
+Thank you for the opportunity. I am an epidemiologist and data analyst with an MPH from UBC and about ten years of experience working with health and population data across research, public health and program settings.
+
+A common thread throughout my work has been taking complex data and turning it into evidence that people can actually use. At CAREX Canada and BCCDC, for example, I have worked with large linked population and health datasets, including national surveys, census-linked cohorts and cancer outcomes. That work has required strong data management, statistical analysis, careful attention to data quality and privacy, and clear communication of findings.
+
+In my current WHO-supported work in Malawi, I analyse population-based survey and geospatial data to evaluate mass drug administration coverage. A key contribution has been moving beyond reporting an overall coverage number to identifying where coverage gaps occur, what may be driving them, and how program teams can use those findings for targeted follow-up. I also developed maps and an interactive dashboard to make the results accessible for decision-making.
+
+What particularly attracts me to this position is that it brings together evaluation, epidemiology, data analysis, knowledge mobilization and evidence-informed planning. I also have a personal and professional connection to the university setting. As an international student at UBC, I saw how institutional decisions can shape student wellbeing and belonging, and I later led a campus food-security project that translated research and stakeholder perspectives into evidence for institutional planning.
+
+So I see this role as an opportunity to bring my analytical and evaluation experience back into a university environment and help Student Wellness Services understand needs, evaluate programs and turn evidence into practical decisions that improve services for students.
+
+Follow-up question. What attracted you specifically to Student Wellness?
+
+Student Wellness sits at the intersection of health, access, student experience and institutional decision-making. That is attractive to me because my work has consistently focused on using evidence to identify unmet need, evaluate services or interventions, and help decision-makers act. My UBC experience also gives me a genuine connection to the university setting and to the importance of services that support students' ability to thrive.
+
+Follow-up question. Why move from epidemiology into this role?
+
+I see it as an application of epidemiology rather than a departure from it. The core skills are the same: defining the population and outcome, choosing appropriate denominators, understanding bias and data quality, evaluating interventions, and translating findings into decisions. This role lets me apply those skills directly to programs and services affecting students.
+
+Follow-up question. What would you bring that another analyst may not?
+
+I bring the combination of technical analytics and an evaluation mindset. I can work with complex linked and administrative data, but I also think about study design, equity, governance, interpretation and how findings will change a program decision. I have also worked across university, public-health and research environments, so I am comfortable translating between technical and operational audiences.
+
+Question. This role is a one-year fixed term, and it's a move from global-health epidemiology into a university setting. How does this fit your plans? [NEW]
+
+This isn't a move away from epidemiology so much as applying the same evidence-to-action skills in a new setting. My WHO work in Malawi and my earlier UBC food-security project both taught me that rigorous analysis, stakeholder engagement, and translating evidence into decisions matter just as much in a university context as in global health - and I have a personal stake in it too, having experienced firsthand how institutional decisions shape international students' wellbeing.
+
+On the term length specifically: a year is enough time to make a real, visible contribution, and I'd approach it with full commitment regardless of its length - building a stronger evaluation foundation the team can carry forward is valuable work whether or not the role continues beyond the term.
+
+Note for Disann (not for the interview): this contract's end date (Sept 2027) lines up naturally with the 2027 PhD intake target in your UBC/SPPH concept note with Dr. Kalua. That's a genuinely honest coherence point for your own planning, not a conflict to paper over.
+
+Follow-up question. Would you consider staying beyond the term if extended?
+
+Yes. I am applying because the work itself is a strong fit, not simply because it is a one-year opportunity. If the role were extended and there continued to be a good mutual fit, I would absolutely be open to staying and continuing the work.
+
+Follow-up question. What made you decide to apply for a fixed-term role specifically?
+
+The term did not deter me because the scope is meaningful and a year is enough time to deliver tangible evaluation and analytics improvements. I was more focused on the fit between the work and my skills: evaluation, health data, knowledge mobilization and evidence-informed planning in a university environment.
+
+Question. Your questionnaire mentions your experience as an international student. How would that inform your work without assuming your experience represents all students?
+
+My own experience gives me an appreciation for the fact that students can experience the same institution very differently, but I would never use my personal experience as evidence of what other students need. In fact, it reinforces for me why rigorous evaluation is important.
+
+I would combine administrative and service data with surveys and, where appropriate, qualitative evidence to understand who is accessing services, who may not be represented in the data, and whether access or outcomes differ across student populations. I would also involve students and service providers in interpreting findings, because numbers need context.
+
+So my experience gives me motivation and perspective, but the recommendations I make would remain grounded in systematic evidence, appropriate denominators, careful interpretation and engagement with the populations the services are intended to support.
+
+Follow-up question. How would you measure equity?
+
+I would compare access and outcomes relative to an appropriate measure of need or the eligible student population, rather than relying on raw counts. Depending on the program, I would examine reach, wait time, completion, experience and outcomes across relevant groups, while considering intersectionality, missing demographic information, uncertainty and privacy.
+
+Follow-up question. What if sample sizes are small?
+
+I would avoid overinterpreting unstable estimates. I would consider aggregation across time or clinically and operationally meaningful categories, report uncertainty, suppress cells where privacy requires it, and use qualitative evidence where appropriate. I would not combine groups simply to make the statistics look cleaner if doing so erased meaningful differences.
+
+Follow-up question. How would you avoid stigmatizing groups?
+
+I would frame differences around systems, access and modifiable barriers rather than treating characteristics of a student group as the problem. I would use neutral language, provide context and denominators, involve relevant stakeholders in interpretation where appropriate, and avoid reporting granular results when they could identify or unfairly label a small population.
+
+Question. Tell us about your current role and the impact you have driven.
+
+In my current role as a research epidemiologist supporting work with WHO in Malawi, I analyse population-based survey and geospatial data to assess the performance of onchocerciasis mass drug administration across communities in Southern Malawi.
+
+The key analytical challenge was that an overall coverage estimate could hide important geographic differences. I therefore developed a reproducible workflow in R and ArcGIS Pro, assessed receipt, uptake and compliance, examined determinants of uptake, and used spatial methods to identify areas with lower coverage.
+
+The impact was shifting the conversation from "What is the overall coverage?" to "Where are the gaps, what is contributing to them, and where should follow-up resources be prioritized?" I also developed an interactive dashboard that allows stakeholders to explore district and community-level patterns rather than relying only on static tables.
+
+That experience reflects how I approach analytics generally: start with the decision that needs to be made, ensure the data are reliable, use methods appropriate to the question, and translate the results into a form that supports action.
+
+Follow-up question. What exactly was your individual contribution?
+
+I led the analytical workflow: defining the treatment indicators, cleaning and structuring the survey data, conducting the regression and spatial analyses, producing the maps, and developing the interactive dashboard. I also translated the results into program-relevant findings about where coverage was lower and what barriers could guide targeted follow-up.
+
+Follow-up question. How did stakeholders use the dashboard?
+
+The dashboard was designed to move stakeholders beyond a single overall coverage estimate. It allowed them to explore district and cluster-level variation, identify lower-coverage areas and examine patterns relevant to microplanning and follow-up. The practical value was making the analysis usable without requiring stakeholders to work through statistical output.
+
+Follow-up question. What did you do when the data had limitations?
+
+I made the limitations part of the analysis rather than hiding them. I checked missingness and denominator definitions, documented exclusions and assumptions, used methods appropriate to the clustered survey structure, and distinguished exploratory spatial signals from findings that remained statistically robust after adjustment. I then communicated what the data could and could not support.
