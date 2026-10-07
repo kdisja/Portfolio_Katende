@@ -10,8 +10,31 @@
   --accent-deep: #9f3f1f;
   --accent-soft: #f4bc8d;
   --shadow: 0 22px 60px rgba(58, 40, 22, 0.12);
-  --radius: 28px;
+  --radius: 0px;
   --container: 1180px;
+}
+
+.site-header,
+.button,
+.nav-resume,
+.nav-toggle,
+.brand-mark,
+.portrait-wrap,
+.hero-metrics li,
+.signal-card,
+.about-panel,
+.about-highlight,
+.focus-card,
+.project-card,
+.contact-card,
+.note-card,
+.skill-row,
+.skill-meter,
+.contact-links a,
+.project-figure img,
+.site-shell::before,
+.site-shell::after {
+  border-radius: 0 !important;
 }
 
 *,
