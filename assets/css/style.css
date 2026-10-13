@@ -55,7 +55,7 @@ body {
     radial-gradient(circle at 85% 15%, rgba(244, 188, 141, 0.5), transparent 24%),
     linear-gradient(180deg, #f6efe6 0%, #f0e7da 45%, #e7ddd0 100%);
   color: var(--text);
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "DM Sans", sans-serif;
   line-height: 1.55;
 }
 
@@ -236,10 +236,22 @@ h3 {
 }
 
 .hero h1,
-.section-heading h2 {
+.section-heading h2,
+.about-intro h2,
+.about-panel p,
+.project-card,
+.note-card,
+.skill-copy,
+.contact-card,
+.focus-card {
   font-family: "Source Serif 4", serif;
+}
+
+.hero h1,
+.section-heading h2,
+.about-intro h2 {
   font-weight: 600;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   line-height: 0.96;
 }
 
