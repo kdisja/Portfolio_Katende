@@ -240,32 +240,42 @@
            <article class="project-card reveal">
              <div class="project-meta">
                <span>R</span>
-               <span>Longitudinal Data</span>
-               <span>Mixed-Effects Logistic Regression</span>
-               <span>clinical Data</span>
+               <span>Prospective Cohort</span>
+               <span>Hip Surveillance</span>
+               <span>Firth Logistic Regression</span>
+               <span>GEE</span>
              </div>
-             <h3>  Hip Displacement Surveillance </h3>
+             <h3>Hip Displacement and Dislocation Surveillance</h3>
              <p>
-               Analyzed longitudinal clinical surveillance data from Uganda to investigate hip
-               displacement among children with cerebral palsy. Applied mixed-effects logistic
-               regression with participant-level random effects to account for within-person
-               correlation across repeated clinical observations and evaluate demographic and
-               clinical factors associated with hip displacement.
+               Followed 246 children aged 2–16 with cerebral palsy receiving care at CoRSU
+               Rehabilitation Hospital in Uganda in a 15-month prospective surveillance cohort.
+               Combined repeated clinical assessments with pelvic radiographs and Reimer's migration
+               percentage to assess hip displacement and dislocation. At baseline, approximately
+               one-third of participants had hip displacement and 7.3% had hip dislocation.
+             </p>
+             <p>
+               Evaluated age, sex, GMFCS level, epilepsy, scoliosis, and assessment time. Higher
+               GMFCS level and older age were associated with dislocation; scoliosis was associated
+               with displacement. Used Firth penalized logistic regression for sparse cross-sectional
+               dislocation events and GEE with participant-level clustering to assess longitudinal
+               associations. Mixed-effects estimates were treated as exploratory because sparse
+               events produced unstable estimates.
              </p>
              <p class="project-methods">
-               <strong>Methods:</strong> R · Longitudinal analysis · Mixed-effects logistic regression ·
-               Repeated measures · Clinical surveillance
+               <strong>Methods:</strong> R · Prospective cohort · Radiographic surveillance ·
+               Reimer's migration percentage · Firth logistic regression · GEE
              </p>
              <figure class="project-figure">
                <img
                  src="assets2/images/predicted_probability_hip_displacement.png"
-                 alt="Predicted probability of hip displacement by time, age, sex, GMFCS level, epilepsy, and scoliosis"
+                 alt="Adjusted predicted probabilities of hip displacement, defined as migration percentage of at least 30%, by assessment time, age, sex, GMFCS level, epilepsy, and scoliosis"
                  loading="lazy"
                >
                <figcaption>
-                   <strong>Model interpretation:</strong> Adjusted predicted probabilities illustrate
-                   variation in hip displacement across demographic and clinical characteristics,
-                   with the clearest gradient observed across GMFCS levels.
+                   <strong>Model interpretation:</strong> This figure shows adjusted probabilities of
+                   hip displacement (migration percentage ≥30%), distinct from the study's hip
+                   dislocation outcome (≥80%). Estimates rise across GMFCS levels, with wide
+                   confidence intervals at the higher levels.
                </figcaption>
              </figure>
            </article>
