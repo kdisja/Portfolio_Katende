@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title description">
+  <title id="title">Practice Ready Ontario Evaluation Framework</title>
+  <desc id="description">An eight-stage evaluation cycle from defining questions through continuous improvement, with formative assessment and system-level learning kept distinct.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#16324F" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M1 1 L9 5 L1 9 Z" fill="#8BA6B8"/>
+    </marker>
+    <style>
+      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 38px; font-weight: 750; fill: #16324F; letter-spacing: -.5px; }
+      .subtitle { font-size: 18px; fill: #567083; }
+      .card-title { font-size: 20px; font-weight: 700; fill: #16324F; }
+      .card-kicker { font-size: 11px; font-weight: 750; fill: #147D82; letter-spacing: 1.3px; }
+      .body { font-size: 15px; fill: #334E60; }
+      .small { font-size: 13px; fill: #567083; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1120" fill="#F4F8FA"/>
+
+  <g class="sans">
+    <text x="64" y="68" class="title">A practical evaluation cycle for PRO</text>
+    <text x="66" y="102" class="subtitle">From candidate assessment to rural workforce outcomes — and back into program improvement</text>
+    <rect x="66" y="124" width="273" height="30" rx="15" fill="#E2F2F1"/>
+    <text x="82" y="144" font-size="12" font-weight="700" fill="#147D82" letter-spacing=".8px">PRACTICE READY ONTARIO</text>
+
+    <rect x="1084" y="122" width="452" height="42" rx="21" fill="#FFFFFF" stroke="#DFE8ED"/>
+    <circle cx="1107" cy="143" r="6" fill="#147D82"/>
+    <text x="1121" y="148" class="small">Formative learning</text>
+    <circle cx="1283" cy="143" r="6" fill="#E5A23B"/>
+    <text x="1297" y="148" class="small">Summative outcomes</text>
+
+    <!-- Flow connectors: top row left-to-right, then bottom row right-to-left. -->
+    <path d="M417 365 H443" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M791 365 H817" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1165 365 H1191" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1360 526 V568" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1190 737 H1164" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M816 737 H790" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M442 737 H416" fill="none" stroke="#8BA6B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Stage 1 -->
+    <g filter="url(#shadow)">
+      <rect x="60" y="204" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="60" y="204" width="357" height="7" rx="4" fill="#147D82"/>
+    </g>
+    <circle cx="91" cy="246" r="19" fill="#E2F2F1"/>
+    <text x="91" y="252" text-anchor="middle" font-size="16" font-weight="800" fill="#147D82">1</text>
+    <text x="121" y="239" class="card-kicker sans">FRAME THE INQUIRY</text>
+    <text x="121" y="266" class="card-title sans">Define evaluation</text>
+    <text x="82" y="304" class="body sans">
+      <tspan x="82" dy="0">Ask the questions that guide</tspan>
+      <tspan x="82" dy="22">decisions across the pathway:</tspan>
+      <tspan x="82" dy="31">• Is the 12-week CFA delivered</tspan>
+      <tspan x="98" dy="21">consistently across sites?</tspan>
+      <tspan x="82" dy="25">• How many meet the standard</tspan>
+      <tspan x="98" dy="21">(Entrustability levels 4–5)?</tspan>
+      <tspan x="82" dy="25">• Who enters and stays in rural</tspan>
+      <tspan x="98" dy="21">Return of Service (ROS) roles?</tspan>
+      <tspan x="82" dy="25">• Are outcomes equitable?</tspan>
+    </text>
+
+    <!-- Stage 2 -->
+    <g filter="url(#shadow)">
+      <rect x="434" y="204" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="434" y="204" width="357" height="7" rx="4" fill="#147D82"/>
+    </g>
+    <circle cx="465" cy="246" r="19" fill="#E2F2F1"/>
+    <text x="465" y="252" text-anchor="middle" font-size="16" font-weight="800" fill="#147D82">2</text>
+    <text x="495" y="239" class="card-kicker sans">MAP HOW CHANGE HAPPENS</text>
+    <text x="495" y="266" class="card-title sans">Build the logic model</text>
+    <text x="456" y="304" class="body sans">
+      <tspan x="456" dy="0">INPUTS  Assessors, CFA sites,</tspan>
+      <tspan x="456" dy="21">Touchstone–MOH–CPSO partnership</tspan>
+      <tspan x="456" dy="30">ACTIVITIES  Supervised 12-week</tspan>
+      <tspan x="456" dy="21">assessment, MSF, reports</tspan>
+      <tspan x="456" dy="30">OUTPUTS  Completed CFAs, decisions,</tspan>
+      <tspan x="456" dy="21">ROS placements</tspan>
+      <tspan x="456" dy="30">OUTCOMES  Practice-ready physicians;</tspan>
+      <tspan x="456" dy="21">sustained rural primary care</tspan>
+      <tspan x="456" dy="30" font-weight="700" fill="#147D82">Separate formative and summative</tspan>
+      <tspan x="456" dy="20" font-weight="700" fill="#147D82">evaluation questions.</tspan>
+    </text>
+
+    <!-- Stage 3 -->
+    <g filter="url(#shadow)">
+      <rect x="808" y="204" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="808" y="204" width="357" height="7" rx="4" fill="#147D82"/>
+    </g>
+    <circle cx="839" cy="246" r="19" fill="#E2F2F1"/>
+    <text x="839" y="252" text-anchor="middle" font-size="16" font-weight="800" fill="#147D82">3</text>
+    <text x="869" y="239" class="card-kicker sans">CHOOSE THE EVIDENCE</text>
+    <text x="869" y="266" class="card-title sans">Design data collection</text>
+    <text x="830" y="304" class="body sans">
+      <tspan x="830" dy="0">• Interim report at week 6;</tspan>
+      <tspan x="846" dy="21">final report at week 12</tspan>
+      <tspan x="830" dy="26">• Entrustability scale, 1–5</tspan>
+      <tspan x="830" dy="26">• MSF: 11 assessments over</tspan>
+      <tspan x="846" dy="21">11 weeks; minimum usually 8</tspan>
+      <tspan x="830" dy="26">• Self-assessments at weeks 6, 12</tspan>
+      <tspan x="830" dy="26">• ROS and practice-location records</tspan>
+      <tspan x="846" dy="21">(e.g., Rurality Index of Ontario)</tspan>
+      <tspan x="830" dy="26">• Assessor and site feedback</tspan>
+    </text>
+
+    <!-- Stage 4 -->
+    <g filter="url(#shadow)">
+      <rect x="1182" y="204" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="1182" y="204" width="357" height="7" rx="4" fill="#147D82"/>
+    </g>
+    <circle cx="1213" cy="246" r="19" fill="#E2F2F1"/>
+    <text x="1213" y="252" text-anchor="middle" font-size="16" font-weight="800" fill="#147D82">4</text>
+    <text x="1243" y="239" class="card-kicker sans">PROTECT DATA QUALITY</text>
+    <text x="1243" y="266" class="card-title sans">Collect &amp; check</text>
+    <text x="1204" y="304" class="body sans">
+      <tspan x="1204" dy="0">COMPLETENESS  Required MSF</tspan>
+      <tspan x="1204" dy="21">returns and score justifications</tspan>
+      <tspan x="1204" dy="31">CONSISTENCY  Assessor patterns</tspan>
+      <tspan x="1204" dy="21">across roles and settings; check</tspan>
+      <tspan x="1204" dy="21">emergency ratings against CTAS</tspan>
+      <tspan x="1204" dy="31">LINKAGE  Connect CFA outcomes</tspan>
+      <tspan x="1204" dy="21">to ROS placement and location</tspan>
+      <tspan x="1204" dy="31" font-weight="700" fill="#147D82">Keep MSF for program evaluation—</tspan>
+      <tspan x="1204" dy="21" font-weight="700" fill="#147D82">not interim or final reports.</tspan>
+    </text>
+
+    <!-- Stage 8 -->
+    <g filter="url(#shadow)">
+      <rect x="60" y="576" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="60" y="576" width="357" height="7" rx="4" fill="#E5A23B"/>
+    </g>
+    <circle cx="91" cy="618" r="19" fill="#FFF2DA"/>
+    <text x="91" y="624" text-anchor="middle" font-size="16" font-weight="800" fill="#B97817">8</text>
+    <text x="121" y="611" class="card-kicker sans" fill="#B97817">CLOSE THE LEARNING LOOP</text>
+    <text x="121" y="638" class="card-title sans">Support improvement</text>
+    <text x="82" y="676" class="body sans">
+      <tspan x="82" dy="0">Bring findings to the Practice</tspan>
+      <tspan x="82" dy="22">Ready Ontario Assessment</tspan>
+      <tspan x="82" dy="22">Committee.</tspan>
+      <tspan x="82" dy="34">Use the evidence to:</tspan>
+      <tspan x="82" dy="26">• Update assessor training</tspan>
+      <tspan x="82" dy="26">• Refine CFA policy and guidance</tspan>
+      <tspan x="82" dy="26">• Improve the next cohort's</tspan>
+      <tspan x="98" dy="21">evaluation questions</tspan>
+      <tspan x="82" dy="34" font-weight="700" fill="#B97817">Then repeat the cycle.</tspan>
+    </text>
+
+    <!-- Stage 7 -->
+    <g filter="url(#shadow)">
+      <rect x="434" y="576" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="434" y="576" width="357" height="7" rx="4" fill="#E5A23B"/>
+    </g>
+    <circle cx="465" cy="618" r="19" fill="#FFF2DA"/>
+    <text x="465" y="624" text-anchor="middle" font-size="16" font-weight="800" fill="#B97817">7</text>
+    <text x="495" y="611" class="card-kicker sans" fill="#B97817">MOVE FROM EVIDENCE TO ACTION</text>
+    <text x="495" y="638" class="card-title sans">Make recommendations</text>
+    <text x="456" y="676" class="body sans">
+      <tspan x="456" dy="0">If MSF reveals recurring themes:</tspan>
+      <tspan x="456" dy="22">refine assessor guidance or</tspan>
+      <tspan x="456" dy="22">observation domains.</tspan>
+      <tspan x="456" dy="34">If week-6 ratings poorly predict</tspan>
+      <tspan x="456" dy="22">week-12 outcomes: review the</tspan>
+      <tspan x="456" dy="22">interim report's purpose and weight.</tspan>
+      <tspan x="456" dy="34">If ROS attrition varies by community:</tspan>
+      <tspan x="456" dy="22">examine local supports and site</tspan>
+      <tspan x="456" dy="22">selection criteria.</tspan>
+    </text>
+
+    <!-- Stage 6 -->
+    <g filter="url(#shadow)">
+      <rect x="808" y="576" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="808" y="576" width="357" height="7" rx="4" fill="#E5A23B"/>
+    </g>
+    <circle cx="839" cy="618" r="19" fill="#FFF2DA"/>
+    <text x="839" y="624" text-anchor="middle" font-size="16" font-weight="800" fill="#B97817">6</text>
+    <text x="869" y="611" class="card-kicker sans" fill="#B97817">MAKE RESULTS RESPONSIBLE</text>
+    <text x="869" y="638" class="card-title sans">Report with context</text>
+    <text x="830" y="676" class="body sans">
+      <tspan x="830" dy="0">Separate individual assessment</tspan>
+      <tspan x="830" dy="22">decisions from system-level</tspan>
+      <tspan x="830" dy="22">evaluation findings.</tspan>
+      <tspan x="830" dy="34">State what the evidence cannot say:</tspan>
+      <tspan x="830" dy="26">• MSF informs evaluation, not</tspan>
+      <tspan x="846" dy="21">licensing decisions</tspan>
+      <tspan x="830" dy="26">• CFA is an assessment period,</tspan>
+      <tspan x="846" dy="21">not a training intervention</tspan>
+      <tspan x="830" dy="26">• Early cohorts may not represent</tspan>
+      <tspan x="846" dy="21">later scale-up</tspan>
+    </text>
+
+    <!-- Stage 5 -->
+    <g filter="url(#shadow)">
+      <rect x="1182" y="576" width="357" height="322" rx="18" fill="#FFFFFF"/>
+      <rect x="1182" y="576" width="357" height="7" rx="4" fill="#E5A23B"/>
+    </g>
+    <circle cx="1213" cy="618" r="19" fill="#FFF2DA"/>
+    <text x="1213" y="624" text-anchor="middle" font-size="16" font-weight="800" fill="#B97817">5</text>
+    <text x="1243" y="611" class="card-kicker sans" fill="#B97817">INTERPRET THE EVIDENCE</text>
+    <text x="1243" y="638" class="card-title sans">Analyze mixed methods</text>
+    <text x="1204" y="676" class="body sans">
+      <tspan x="1204" dy="0" font-weight="700" fill="#147D82">QUANTITATIVE</tspan>
+      <tspan x="1204" dy="24">• Final score distribution; % at 4–5</tspan>
+      <tspan x="1204" dy="24">• Week-6 / week-12 concordance</tspan>
+      <tspan x="1204" dy="24">• MSF patterns by site and cohort</tspan>
+      <tspan x="1204" dy="24">• ROS placement and retention</tspan>
+      <tspan x="1204" dy="34" font-weight="700" fill="#147D82">QUALITATIVE</tspan>
+      <tspan x="1204" dy="24">Use assessor rationales, MSF</tspan>
+      <tspan x="1204" dy="21">comments, and stakeholder feedback</tspan>
+      <tspan x="1204" dy="21">to explain patterns across sites</tspan>
+      <tspan x="1204" dy="21">and clinical domains.</tspan>
+    </text>
+
+    <rect x="60" y="938" width="1479" height="112" rx="18" fill="#16324F"/>
+    <text x="88" y="977" font-size="13" font-weight="750" fill="#9AD9D4" letter-spacing="1.2px" class="sans">TWO COMPLEMENTARY LENSES</text>
+    <line x1="800" y1="960" x2="800" y2="1028" stroke="#496276" stroke-width="1"/>
+    <circle cx="92" cy="1007" r="7" fill="#54B8AD"/>
+    <text x="112" y="1013" font-size="16" font-weight="700" fill="#FFFFFF" class="sans">Formative</text>
+    <text x="208" y="1013" font-size="15" fill="#D9E5EC" class="sans">How well is the CFA delivered, and how can it improve?</text>
+    <circle cx="833" cy="1007" r="7" fill="#E5A23B"/>
+    <text x="853" y="1013" font-size="16" font-weight="700" fill="#FFFFFF" class="sans">Summative</text>
+    <text x="956" y="1013" font-size="15" fill="#D9E5EC" class="sans">Does PRO contribute to a sustained rural workforce?</text>
+
+    <text x="64" y="1082" font-size="12" fill="#71899A" class="sans">Illustrative framework based on the provided PRO interview notes. Confirm program-specific measures and governance with partners.</text>
+  </g>
+</svg>

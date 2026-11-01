@@ -1,0 +1,70 @@
+TOUCHSTONE INSTITUTE INTERVIEW PRACTICE
+Manager, Data & Evaluation
+
+Practice audio transcript
+
+Note: Answers 2 and 3 are drafted from the examples in the supplied playbook. Confirm that the events and actions accurately reflect your experience before using them in an interview.
+
+QUESTION 1: Tell us about a time you led people without direct reporting authority.
+
+One example is a mass drug administration coverage survey I led in Southern Malawi. The work covered eight districts and involved coordinating eight statisticians and district data coordinators. Most of the team did not report directly to me, but I was accountable for keeping the data collection, analysis, and reporting consistent.
+
+I set shared analytical procedures and data quality expectations, then held regular check-ins to resolve issues. When differences appeared between districts, I worked with the teams to understand the cause and make sure the data could be compared fairly.
+
+The survey covered 238 geographic clusters and produced evidence on treatment coverage, geographic variation, and barriers to access. It reinforced for me that leadership is about creating clarity, building trust, and helping people see how their work contributes to a shared outcome. That is how I would work across teams at Touchstone.
+
+QUESTION 2: Describe a disagreement and how you resolved it.
+
+In a multi-district survey, there can be tension between the need to resolve data questions thoroughly and the need to report on time. In the example I have prepared, field colleagues were concerned that more verification could delay reporting, while analysts needed confidence that the data were comparable and reliable.
+
+I would start by listening to both sides and clarifying the risk. Then I would agree with the team on a practical, risk-based approach: verify issues that could change key indicators before reporting, and document lower-impact issues for follow-up. That keeps the decision focused on evidence and shared priorities, rather than on which team is right.
+
+The main lesson is to listen first, use clear criteria, and make trade-offs visible. I would confirm that this example matches a real situation from my experience before presenting it as a specific past event.
+
+QUESTION 3: Tell us about a project that did not go as planned.
+
+In the Southern Malawi coverage survey, data came in from multiple districts and some submissions needed additional validation before they could be included in the analysis. That created a risk to the reporting timeline.
+
+I focused first on the issues that could affect the primary indicators and coordinated follow-up with the relevant teams. I also used a tracker to show which data were complete, what still needed validation, and where timelines might be affected. Keeping stakeholders informed helped us address problems without losing sight of data quality.
+
+The experience reminded me that project management is not about assuming everything will go to plan. It is about spotting risks early, adjusting priorities, and communicating clearly. At Touchstone, I would use the same approach with assessment and evaluation reporting.
+
+QUESTION 4: What is your most meaningful data or evaluation accomplishment?
+
+One of my most meaningful accomplishments was leading the evaluation of an ivermectin mass drug administration program across eight districts in Southern Malawi.
+
+We wanted to understand not only overall treatment coverage, but also who might be missed, where gaps existed, and what barriers affected access. Using data from 238 geographic clusters, I analyzed treatment uptake and geographic patterns. Overall coverage was about 72 percent, with substantial variation across districts. The analysis also highlighted barriers such as limited campaign awareness and people being away during distribution visits.
+
+I then developed an interactive Shiny dashboard so stakeholders could explore results by geography and compare districts. For me, the value was turning analysis into evidence that could inform future outreach and program improvements.
+
+QUESTION 5: Tell us about a mistake you made and what changed afterward.
+
+Early in a machine learning project, I focused too much on overall accuracy because it was the easiest result to understand. The model reached about 76 percent accuracy, and at first I considered that encouraging.
+
+Then I examined the confusion matrix and sensitivity. I realized the model was not identifying the non-uptake cases that mattered for the question. Its ROC-AUC was 0.586, so accuracy alone gave a misleadingly positive impression.
+
+I revisited the evaluation criteria and looked at sensitivity, specificity, ROC-AUC, and different probability thresholds. The key lesson was that performance measures need to match the decision a model is meant to support. Since then, I have been more deliberate about defining success measures before evaluating a model.
+
+QUESTION 6: How would you ensure consistent data quality across sites or assessors?
+
+I see data quality as something to build into a process from the start, not something to fix at the reporting stage.
+
+First, I would agree on definitions, procedures, and responsibilities for data entry, validation, and reporting. Then I would use automated checks for missing values, duplicates, unusual patterns, and inconsistencies. I would monitor those indicators by site or assessor, and follow up when a pattern suggests a training, workflow, technology, or process issue.
+
+I would also establish clear data ownership, version control, audit trails, privacy requirements, and documentation. Just as important, I would create feedback loops so teams can correct problems close to their source. My multi-site work in Malawi and experience with the First Nations Regional Health Survey have shown me how much standardization and continuous feedback matter.
+
+QUESTION 7: How do you translate an analytical finding into a program improvement?
+
+I start with the decision the team needs to make, rather than with the statistical method.
+
+In the Malawi coverage study, we found geographic differences in treatment uptake and barriers such as limited awareness and people being away during distribution visits. Those findings point to different possible responses. Awareness gaps may call for stronger community engagement, while absenteeism may call for changes to distribution timing or follow-up.
+
+I would discuss feasible actions with program leaders, then monitor whether the changes improve outcomes. At Touchstone, if assessment data showed a performance gap, I would work with the team to understand whether it came from preparation, assessment design, or operations before recommending a response. Evaluation is most useful when it improves decisions, not just when a report is complete.
+
+QUESTION 8: How would you manage competing reporting requests from leadership and partners?
+
+I would clarify the purpose, urgency, audience, and organizational importance of each request. Then I would compare deadlines, strategic value, effort, and data availability so that priorities are explicit.
+
+Where possible, I would use standardized reporting products to meet several needs without recreating similar work. I would also maintain a transparent calendar or tracker so stakeholders can see deliverables, workload, and timelines.
+
+If demand exceeded capacity, I would raise that early as a prioritization issue, not simply try to absorb it. I would look for opportunities to automate or streamline the work and agree with leadership on any trade-offs. My goal would be to stay responsive while protecting quality, confidentiality, and a sustainable workload.

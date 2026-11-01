@@ -1,0 +1,44 @@
+﻿TOUCHSTONE INSTITUTE INTERVIEW PRACTICE
+Manager, Data and Evaluation
+Part 2 — Data Quality and Leadership
+
+QUESTION 5: How do you ensure data quality and accuracy?
+
+"I treat data quality as a governance problem, not a cleaning problem — most errors originate upstream, in definitions and collection, not in the analysis.
+
+In the air pollution and cancer study I was linking national household surveys, cancer registries, and multiple Census cohorts in Statistics Canada's secure environment. The quality work was standardised ICD-coded definitions for eight cancer outcomes, linkage validation across datasets, and documented data dictionaries so the definitions were reproducible. I attached confidence ratings to each variable — validated, indicative, or imputed — so downstream analysts knew how much weight to place on it.
+
+In the NTD program the challenge was different, because quality was distributed. With 2 coordinators and a statistician in each of 8 districts, the failure mode is that everyone is technically collecting 'coverage' but nobody means the same thing by it. So I standardised the definitions and the reporting template centrally, ran a regular cadence with the district statisticians, and reviewed outputs against the standard. Then I ran sensitivity checks on alternative spatial specifications to confirm the patterns weren't artefacts of boundary choices.
+
+The principle I carry is make quality visible — a scorecard, a confidence rating, a sensitivity check. Anything that stops a rough estimate being mistaken for a validated one." ---
+
+QUESTION 6: How do you present data to non-technical stakeholders?
+
+"I start from the decision, not the data. Before I build anything I ask what choice the person needs to make and what's the smallest amount of information that supports it.
+
+The NTD dashboard is the clearest example. The program team didn't need a statistical report on spatial autocorrelation — they needed to know which communities to prioritise for the next round of microplanning. So the dashboard led with a map of coverage gaps and a ranked list of priority communities, with the statistical detail available but not foregrounded. The analysis can be sophisticated; the interface has to be decision-ready.
+
+The same applied internally. The district coordinators weren't analysts — they were the people closest to collection — so the reporting templates had to be usable without a statistics background. Getting that right is what made the central standardisation actually stick, rather than being quietly worked around.
+
+In written work I use a one-page narrative: what we found, what it means, what we recommend. I test every visual on a non-technical colleague first. And I never strip the caveats to make it cleaner — I'll put them in a footnote or appendix, but I won't let a leader repeat a number I know is shakier than the slide implies." ---
+
+QUESTION 7: Tell us about managing competing priorities.
+
+"S: Running the data function across 8 districts, I was managing survey collection, the spatial analysis, and a funder reporting deadline at the same time — with a distributed team I couldn't see directly.
+
+Task: Protect the critical path without dropping anything that mattered, and without losing quality in districts I wasn't physically in.
+
+Action: Three moves. I mapped every deliverable to effort and to who was waiting on it, then had explicit conversations with stakeholders about what would move — I renegotiated one deadline rather than quietly missing three. I standardised the district reporting templates so coordinators weren't rebuilding formats each cycle. And I ran a weekly cadence with the district statisticians so I heard about problems early rather than at the deadline.
+
+Result: The funder deliverable landed on time, the re-scoped work was agreed rather than imposed, and standardising the templates cut recurring effort substantially. The lesson: 'competing priorities' is usually a communication problem before it's a capacity problem — and in a distributed team it's also a visibility problem, which is why the cadence mattered more than the plan." ---
+
+QUESTION 8: How do you lead a team, and how would you handle underperformance?
+
+"I led the data function for the onchocerciasis program across 8 districts — 2 data coordinators and a statistician in each, roughly 24 people across a distributed team. I was accountable for the standards, the timelines, and the quality of everything coming out of those districts.
+
+How I ran it: standardise, cadence, capability. Standardise — one data dictionary and one set of protocols, because inconsistency between sites is the thing that breaks first in a distributed team. Cadence — a regular working session with the district leads so problems surfaced early rather than at reporting time. Capability — I worked directly with the coordinators on data quality practice, because in a distributed function the person closest to collection sets the ceiling on quality. Several of them took on more analytical responsibility over the course of the program.
+
+On underperformance, my approach is to name it early and specifically, and to work out whether it's a skill gap, a clarity gap, or a will gap — because the response differs. A skill gap gets training and scaffolding. A clarity gap is my failure, not theirs. A will gap gets a direct conversation with explicit expectations, a timeline, and documented follow-up. What I won't do is let it drift, because the kindest thing is to be clear while there's still time to fix it.
+
+The one place I'd be precise: if accurate, I haven't owned the full formal HR cycle, like hiring and annual performance reviews, so I'd want to understand how much of that sits with this role versus your HR function." ---
+

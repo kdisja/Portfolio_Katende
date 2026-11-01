@@ -1,0 +1,46 @@
+﻿TOUCHSTONE INSTITUTE INTERVIEW PRACTICE
+Manager, Data and Evaluation
+Part 1 — Interview Story and Evaluation
+
+QUESTION 1: Tell us about yourself and why this role.
+
+"I'm a Research Epidemiologist with an MPH from UBC, and my work has been about turning complex health data into decisions programs can actually act on — and building the data functions that make that possible.
+
+The project that best describes how I work is the evaluation of mass drug administration for onchocerciasis in Southern Malawi. We had population-based survey data across 238 community clusters, and the question wasn't 'what's overall coverage' — it was 'where is coverage failing, and why.' I integrated the survey data with geospatial data, applied spatial statistics to detect clusters of persistent under-coverage, and built an interactive dashboard so the program team could see priority communities and target microplanning and resource allocation. That's evaluation in the truest sense — not a report on a shelf, but a tool that changed where resources went.
+
+I also led the data function behind it — 2 data coordinators and a statistician in each of 8 districts, about 24 people — so I was responsible for the standards, the quality, and the delivery across a distributed team, not just the analysis.
+
+And I've worked at the other end of the data scale, linking national household surveys, cancer registries, and Census cohorts in Statistics Canada's secure environment to build analytical datasets exceeding 100 million records.
+
+What draws me to PRO is that it's a pathway program. The questions that matter are longitudinal and equity-focused — who enters, who completes the Clinical Field Assessment, who gets placed, who stays in rural practice, and what predicts that. That's exactly what my background is built for, and the fact that findings feed CPSO, Ontario Health, and the Ministry raises the stakes in a way I find motivating." ---
+
+QUESTION 2: Walk us through an evaluation framework you designed and implemented.
+
+"Situation: In the onchocerciasis program in Southern Malawi, we needed to know not just whether treatment coverage was adequate overall, but whether it was adequate everywhere — persistent under-coverage in specific communities would undermine elimination. The problem was that the 8 districts weren't measuring the same way, so cross-district comparison wasn't reliable.
+
+Task: I designed and led the evaluation across 238 community clusters, with responsibility for both the framework and the distributed team delivering it.
+
+Action: Two halves. On the design side, I applied Global and Local Moran's I to detect spatial clustering of under-coverage, then used spatial neighbourhood analysis and multivariable regression to identify factors associated with persistent gaps. On the delivery side, I standardised the inputs first — one data dictionary, one set of collection protocols, one reporting template — because the spatial analysis is worthless if a coverage figure means something different in each district. Then I built an interactive dashboard that let the program team visualise coverage patterns, identify priority communities, and support targeted microplanning.
+
+Result: The evaluation moved the program from a single aggregate coverage number to a spatial decision-support tool. Priority communities were identified, and the dashboard was used for microplanning and resource allocation. The outcome I care about is that the evaluation didn't just describe the problem — it changed where the program put its resources." ---
+
+QUESTION 3: How would you approach data and evaluation for PRO?
+
+"I'd start from PRO's theory of change, because the design follows from what the program is actually trying to do. As I understand it, internationally trained family physicians go through a 12-week Clinical Field Assessment, and successful candidates enter a three-year Return of Service in rural Ontario. So the evaluation has to measure the whole pathway, not just the assessment event.
+
+Four layers. Reach and selection — who applies, who's eligible, where the funnel narrows. Assessment performance and fairness — are the clinical field assessments valid and reliable, and do outcomes differ systematically by country of training, language, or other factors in ways that suggest bias rather than difference in competence. Placement — are candidates actually placed in rural communities, and how quickly. Retention and contribution — do they stay beyond the return-of-service period, and what does the community get. That last layer matters most to the funder and is the one pathway programs most often under-measure.
+
+Methodologically I'd want a mixed design: administrative and assessment data for the pathway, plus qualitative work with candidates, assessors, and rural preceptors to explain why the numbers look the way they do. I've done that kind of linkage before — in the carcinogen exposures study I integrated the Labour Force Survey with CAREX Canada data to build an exposures-per-worker metric that surfaced inequities invisible in the aggregate. Same logic here: aggregate completion rates can hide subgroup differences that matter for fairness.
+
+And I'd define indicators early with CPSO, Ontario Health, and the Ministry, because each will want something slightly different, and it's much cheaper to reconcile that at design stage than at reporting stage. That's the lesson I took from running a distributed team — if the definition isn't settled centrally, every site invents its own." ---
+
+QUESTION 4: Tell us about translating findings into recommendations — including communicating limitations.
+
+"S: In the carcinogen exposures study, the headline finding was going to be a single exposures-per-worker figure. That number looked unremarkable, and there was a pull to report it that way and move on.
+
+Task: I was responsible for turning the analysis into something that could inform occupational safety policy, and I didn't think the aggregate was the story.
+
+Action: I disaggregated. Once I broke the metric down by age and immigration status, a very different picture appeared — young workers and recent immigrants carried substantially higher exposures. So I structured the output in three parts: the aggregate result, the disaggregated finding, and an explicit statement of the limitation — that the exposure estimates relied on CAREX Canada's prevalence data, so the ranking was more reliable than the absolute magnitude. Then one concrete recommendation: target inspection and training resources at the higher-exposure subgroups rather than spreading them evenly.
+
+Result: The disaggregated finding became the part that was cited, and it changed the framing from 'exposure is broadly moderate' to 'exposure is concentrated.' The lesson I took is that a limitation isn't a weakness in a report — it's what makes the recommendation credible. If you don't say what the number can't support, the reader assumes it supports everything." ---
+

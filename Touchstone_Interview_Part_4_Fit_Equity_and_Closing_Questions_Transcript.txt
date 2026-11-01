@@ -1,0 +1,40 @@
+﻿TOUCHSTONE INSTITUTE INTERVIEW PRACTICE
+Manager, Data and Evaluation
+Part 4 — Role Fit, Equity, and Closing Questions
+
+QUESTION 12: What's your familiarity with medical education, competency assessment, and licensure?
+
+"I'll be precise about what I don't know. I'm not trained in psychometrics — I'm not going to design a standard-setting exercise or run a DIF analysis myself. What I do know is what those things are for, which questions they answer, and what a credible result looks like, so I can specify, commission, and challenge that work rather than accept it at face value.
+
+I'd come up to speed three ways. Read the foundational material — validity frameworks, CanMEDS, how workplace-based assessment differs from written assessment. Sit with the people doing the work, because the fastest way to understand a measurement system is to watch it operate. And be explicit with the team about what I'm learning, so nobody assumes I know more than I do.
+
+What I bring from day one is the governance and reporting discipline — the definitions, the data quality, the ability to say 'this number is solid' or 'this is indicative only.' That's usually where pathway programs lose credibility, and it's where I'm strongest." ---
+
+QUESTION 13: How do you embed equity and fairness in data and evaluation?
+
+"Equity starts with what we measure and who we ask — and it usually shows up in the disaggregation, not the headline.
+
+In the carcinogen exposures study I integrated the Labour Force Survey with CAREX Canada data to build an exposures-per-worker metric, and the inequities only became visible when we disaggregated by age and immigration status — young workers and recent immigrants carried substantially higher exposures. The aggregate number would have hidden that entirely.
+
+In the NTD evaluation the equity question was geographic: aggregate coverage looked acceptable, but the spatial analysis showed persistent under-coverage concentrated in specific communities. Same principle — the average was hiding who was being missed. That's what the dashboard was built to surface.
+
+My habits are: disaggregate where the sample allows, and be explicit when it doesn't; involve affected groups in design rather than interpreting them afterwards; and watch for indicators that penalise people for access rather than ability — a live risk in an assessment context.
+
+And in reporting I avoid deficit framing. The finding isn't 'this group underperforms' — it's 'this pathway isn't working as well for this group, and here's the mechanism.' That distinction changes what recommendation follows." ---
+
+QUESTION 14: Why Touchstone, and what questions do you have for us?
+
+To close, choose three questions to ask the interview panel.
+
+Possible questions to ask the interview panel (choose three):
+
+1. PRO is in a pilot phase evaluating program design and implementation. Is this role primarily building the evaluation infrastructure for that pilot, or is the pilot already generating data that needs analysis?
+
+2. Where does pathway data live today — the Clinical Field Assessment, placement, and return-of-service tracking? Are they linked, or stitched together manually?
+
+3. Is **rural retention** central to what the funder is asking, versus assessment validity and fairness? I ask because those pull the evaluation in quite different directions.
+
+4. What would 'follow-through' look like in year one — which decisions do you most want this role to influence?
+
+5. How large is the Data & Evaluation team today, and what's the mix of analytical versus coordination work?
+

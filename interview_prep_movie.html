@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidence That Leads</title>
+  <style>
+    :root {
+      --bg1: #071521;
+      --bg2: #0d2337;
+      --bg3: #123b4d;
+      --text: #eaf6ff;
+      --muted: #b8d7ec;
+      --accent: #5ee0d6;
+      --accent-2: #8ec5ff;
+      --gold: #f3d27a;
+      --panel: rgba(9, 24, 35, 0.62);
+      --panel-border: rgba(146, 216, 255, 0.25);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #102e3f 0%, var(--bg1) 35%, #050d16 100%);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .movie {
+      position: relative;
+      width: min(100vw, 1600px);
+      height: min(100vh, 900px);
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(10,18,30,0.92), rgba(13,35,55,0.88));
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.45);
+    }
+
+    .movie::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(rgba(255,255,255,0.08) 0.6px, transparent 0.8px);
+      background-size: 6px 6px;
+      opacity: 0.2;
+      mix-blend-mode: screen;
+      pointer-events: none;
+      z-index: 7;
+    }
+
+    .bg-glow {
+      position: absolute;
+      width: 110vw;
+      height: 110vh;
+      inset: -10vh -10vw;
+      background: radial-gradient(circle at 20% 20%, rgba(94,224,214,0.12), transparent 32%),
+                  radial-gradient(circle at 80% 22%, rgba(142,197,255,0.1), transparent 30%),
+                  radial-gradient(circle at 50% 80%, rgba(243,210,122,0.08), transparent 28%);
+      animation: drift 32s ease-in-out infinite alternate;
+      filter: blur(18px);
+    }
+
+    .intro-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 20;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(180deg, rgba(3,7,12,0.96), rgba(9,17,24,0.96) 30%, rgba(2,6,11,0.98));
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 2s ease, visibility 2s ease;
+    }
+
+    .intro-overlay.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .intro-title {
+      position: relative;
+      text-align: center;
+      animation: revealTitle 3s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: clamp(1.5rem, 4vw, 5rem);
+      color: #edf8ff;
+      text-shadow: 0 0 25px rgba(94,224,214,0.22), 0 0 60px rgba(142,197,255,0.16);
+      padding: 0 2rem;
+      transform-origin: center;
+    }
+
+    .intro-title::before {
+      content: "Coming Soon";
+      position: absolute;
+      inset: -3.2rem auto auto 50%;
+      transform: translateX(-50%);
+      font-size: clamp(0.6rem, 1vw, 0.9rem);
+      letter-spacing: 0.48em;
+      color: rgba(243,210,122,0.9);
+      text-transform: uppercase;
+      opacity: 0.9;
+      filter: blur(0.2px);
+    }
+
+    .intro-title::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -1.8rem;
+      width: 50%;
+      height: 1px;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, transparent, rgba(243,210,122,0.9), transparent);
+      box-shadow: 0 0 20px rgba(243,210,122,0.3);
+    }
+
+    .intro-title span {
+      display: block;
+      color: var(--gold);
+      font-size: clamp(0.72rem, 1.5vw, 1.1rem);
+      letter-spacing: 0.42em;
+      margin-top: 0.9rem;
+    }
+
+    @keyframes drift {
+      0% { transform: translate3d(0,0,0) scale(1); }
+      100% { transform: translate3d(-3%, 2%, 0) scale(1.08); }
+    }
+
+    @keyframes revealTitle {
+      0% { opacity: 0; filter: blur(10px); transform: translateY(28px) scale(0.96); }
+      30% { opacity: 1; filter: blur(0); }
+      70% { opacity: 1; }
+      100% { opacity: 0; filter: blur(8px); transform: translateY(-18px) scale(1.04); }
+    }
+
+    .scene {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 1.8s ease, transform 1.8s ease;
+      transform: scale(1.06);
+      padding: 8vmin 8vmin 10vmin 8vmin;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+
+    .scene.active {
+      opacity: 1;
+      transform: scale(1);
+      animation: cinematicFade 2.4s cubic-bezier(0.22, 0.75, 0.18, 1);
+    }
+
+    @keyframes cinematicFade {
+      0% { opacity: 0; transform: scale(1.14) translateX(20px); filter: blur(8px); }
+      18% { opacity: 0.3; }
+      45% { opacity: 1; filter: blur(2px); }
+      100% { opacity: 1; transform: scale(1) translateX(0); filter: blur(0); }
+    }
+
+    .scene::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(3,9,18,0.18), rgba(3,9,18,0.80));
+      box-shadow: inset 0 0 80px rgba(0,0,0,0.42);
+    }
+
+    .scene::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 78%, rgba(0,0,0,0.7) 100%);
+      opacity: 0;
+      transform: scaleX(1.2);
+      animation: wipe 2.6s ease forwards;
+    }
+
+    @keyframes wipe {
+      0% { opacity: 0; transform: scaleX(1.2); }
+      12% { opacity: 1; }
+      55% { opacity: 0.35; }
+      100% { opacity: 0; transform: scaleX(1); }
+    }
+
+    .scene .art {
+      position: absolute;
+      inset: 0;
+      opacity: 0.92;
+      background-size: cover;
+      background-position: center;
+      filter: saturate(1.1) contrast(1.08) brightness(0.86);
+      transform: scale(1.08);
+      animation: slowPan 18s ease-in-out infinite alternate;
+    }
+
+    @keyframes slowPan {
+      0% { transform: scale(1.06) translateX(0) translateY(0); }
+      100% { transform: scale(1.12) translateX(-2%) translateY(1%); }
+    }
+
+    .scene[data-scene="1"] .art {
+      background: linear-gradient(120deg, rgba(14,26,36,0.55), rgba(18,59,77,0.4)),
+                  radial-gradient(circle at 26% 32%, rgba(94,224,214,0.28), transparent 20%),
+                  linear-gradient(135deg, #071521, #0d2337 30%, #113a48 100%);
+    }
+
+    .scene[data-scene="2"] .art {
+      background: linear-gradient(120deg, rgba(11,21,30,0.62), rgba(8,35,52,0.45)),
+                  linear-gradient(135deg, #071521, #0f2b3e 40%, #1e4d63 100%);
+    }
+
+    .scene[data-scene="3"] .art {
+      background: linear-gradient(140deg, rgba(7,21,33,0.60), rgba(15,44,61,0.52)),
+                  linear-gradient(135deg, #071821, #102f3f 38%, #265f73 100%);
+    }
+
+    .scene[data-scene="4"] .art {
+      background: linear-gradient(120deg, rgba(10,19,28,0.58), rgba(18,56,73,0.42)),
+                  linear-gradient(135deg, #071923, #14415d 40%, #1d5d76 100%);
+    }
+
+    .scene[data-scene="5"] .art {
+      background: linear-gradient(120deg, rgba(9,15,23,0.58), rgba(22,45,58,0.42)),
+                  linear-gradient(135deg, #040d18, #0c1d2d 30%, #1a4259 100%);
+    }
+
+    .scene[data-scene="6"] .art {
+      background: linear-gradient(120deg, rgba(7,18,25,0.62), rgba(17,38,51,0.52)),
+                  linear-gradient(135deg, #050d14, #0d2337 32%, #4a6985 100%);
+      animation: finalPulse 8s ease-in-out infinite alternate;
+    }
+
+    .scene[data-scene="6"] .content {
+      background: linear-gradient(180deg, rgba(8, 23, 35, 0.76), rgba(8, 23, 35, 0.26));
+      border-color: rgba(243,210,122,0.42);
+      box-shadow: 0 25px 50px rgba(0,0,0,0.2), 0 0 45px rgba(243,210,122,0.18);
+    }
+
+    .scene[data-scene="6"] h1 {
+      font-size: clamp(2.5rem, 5vw, 6rem);
+      letter-spacing: -0.07em;
+      text-shadow: 0 0 18px rgba(243,210,122,0.18), 0 12px 30px rgba(0,0,0,0.34);
+      animation: finalTitleImpact 2.8s ease-in-out infinite alternate;
+    }
+
+    @keyframes finalTitleImpact {
+      0% { transform: scale(0.98); letter-spacing: -0.04em; }
+      100% { transform: scale(1.02); letter-spacing: -0.07em; }
+    }
+
+    @keyframes finalPulse {
+      0% { transform: scale(1.06) brightness(0.8); }
+      100% { transform: scale(1.15) brightness(1.08); }
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+      width: 70%;
+      padding: 1.8rem 1.9rem 1.5rem 1.9rem;
+      background: linear-gradient(180deg, rgba(7, 19, 30, 0.54), rgba(7, 19, 30, 0.22));
+      border: 1px solid var(--panel-border);
+      border-radius: 18px;
+      backdrop-filter: blur(2px);
+      box-shadow: 0 18px 36px rgba(0,0,0,0.18), inset 0 0 0 1px rgba(255,255,255,0.03);
+      animation: cardReveal 1s ease-out;
+    }
+
+    @keyframes cardReveal {
+      0% { opacity: 0; transform: translateY(26px) scale(0.98); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .eyebrow {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 0.8rem;
+    }
+
+    h1 {
+      margin: 0 0 0.9rem 0;
+      font-size: clamp(2.2rem, 4vw, 5rem);
+      line-height: 0.96;
+      letter-spacing: -0.05em;
+      max-width: 620px;
+      text-shadow: 0 6px 24px rgba(0,0,0,0.22);
+    }
+
+    .subtitle {
+      margin: 0 0 1rem 0;
+      font-size: clamp(1.05rem, 1.6vw, 1.5rem);
+      line-height: 1.45;
+      color: var(--muted);
+      max-width: 620px;
+    }
+
+    .details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 1.2rem;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(94,224,214,0.08);
+      border: 1px solid rgba(94,224,214,0.22);
+      border-radius: 999px;
+      padding: 0.5rem 0.9rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .footer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 2rem 1.2rem 2rem;
+      background: linear-gradient(180deg, rgba(8,14,22,0), rgba(8,14,22,0.7) 34%, rgba(8,14,22,0.9));
+    }
+
+    .scene[data-scene="6"] .footer {
+      background: linear-gradient(180deg, rgba(8,14,22,0), rgba(8,14,22,0.86) 28%, rgba(8,14,22,1));
+    }
+
+    .credits {
+      font-size: 0.8rem;
+      color: rgba(234,246,255,0.75);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: flex;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    .progress {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      min-width: 260px;
+      justify-content: flex-end;
+    }
+
+    .track {
+      position: relative;
+      width: 140px;
+      height: 5px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .fill {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--gold));
+      border-radius: inherit;
+      transition: width 1.2s ease;
+    }
+
+    .play-btn {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      z-index: 8;
+      appearance: none;
+      border: 1px solid rgba(255,255,255,0.25);
+      background: rgba(9, 21, 30, 0.55);
+      color: var(--text);
+      padding: 0.7rem 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      transition: transform 0.2s ease;
+    }
+
+    .play-btn:hover { transform: translateY(-1px); }
+
+    @media (max-width: 800px) {
+      .content {
+        width: 82%;
+      }
+
+      .footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .progress {
+        width: 100%;
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="movie" aria-live="polite">
+    <div class="intro-overlay" id="introOverlay">
+      <div class="intro-title">Evidence That Leads<span>Touchstone Institute</span></div>
+    </div>
+
+    <button class="play-btn" id="togglePlay">Pause</button>
+
+    <div class="bg-glow"></div>
+
+    <section class="scene active" data-scene="1">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Scene 1</div>
+        <h1>Start with the decision, not the dashboard.</h1>
+        <p class="subtitle">“I begin by asking what decision the data needs to support and who will use it. The strongest evaluation work is decision-focused, not method-first.”</p>
+        <div class="details">
+          <span class="pill">Program logic</span>
+          <span class="pill">Evaluation design</span>
+          <span class="pill">Priority setting</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="2">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Scene 2</div>
+        <h1>Map the candidate pathway.</h1>
+        <p class="subtitle">“I would trace the full journey from application through assessment and outcomes, identify who owns each dataset, and clarify definitions across partner teams before analysis begins.”</p>
+        <div class="details">
+          <span class="pill">Data flow</span>
+          <span class="pill">Partner roles</span>
+          <span class="pill">Definitions</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="3">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Scene 3</div>
+        <h1>Build reliable measures.</h1>
+        <p class="subtitle">“For each KPI, I define the numerator, denominator, source, refresh cadence, owner, and interpretation. A metric must be defendable, useful, and actionable.”</p>
+        <div class="details">
+          <span class="pill">Quality checks</span>
+          <span class="pill">KPI design</span>
+          <span class="pill">Governance</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="4">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Scene 4</div>
+        <h1>Protect the data and lead the team.</h1>
+        <p class="subtitle">“I would establish secure access, protect sensitive data, and support the team through clear delegation, quality review, and early risk escalation.”</p>
+        <div class="details">
+          <span class="pill">Privacy</span>
+          <span class="pill">People leadership</span>
+          <span class="pill">Risk management</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="5">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Scene 5</div>
+        <h1>Investigate fairness with care.</h1>
+        <p class="subtitle">“A group difference is a signal to investigate, not proof of unfairness. I would verify definitions, sample size, missingness, and process variation before drawing conclusions.”</p>
+        <div class="details">
+          <span class="pill">Equity</span>
+          <span class="pill">Responsible analysis</span>
+          <span class="pill">Uncertainty</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" data-scene="6">
+      <div class="art"></div>
+      <div class="content">
+        <div class="eyebrow">Final scene</div>
+        <h1>Evidence that leads to action.</h1>
+        <p class="subtitle">“I bring together rigorous analysis, practical program knowledge, and people leadership to help Touchstone make measures that are credible, useful, and trusted.”</p>
+        <div class="details">
+          <span class="pill">Touchstone fit</span>
+          <span class="pill">Leadership</span>
+          <span class="pill">Actionable insight</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="credits">
+        <span>Evidence That Leads</span>
+        <span>Manager, Data &amp; Evaluation</span>
+        <span>Touchstone Institute</span>
+      </div>
+      <div class="progress">
+        <div class="track"><div class="fill" id="progressFill"></div></div>
+        <span id="slideCounter">01 / 06</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const scenes = Array.from(document.querySelectorAll('.scene'));
+    const progressFill = document.getElementById('progressFill');
+    const slideCounter = document.getElementById('slideCounter');
+    const togglePlay = document.getElementById('togglePlay');
+    const introOverlay = document.getElementById('introOverlay');
+
+    const narration = [
+      "Start with the decision, not the dashboard. I begin by asking what decision the data needs to support and who will use it. The strongest evaluation work is decision-focused, not method-first.",
+      "I would map the full candidate pathway, trace the data flow, and clarify partner roles and definitions before analysis begins.",
+      "For each KPI, I define the numerator, denominator, source, owner, refresh cadence, and interpretation. A metric must be defendable, useful, and actionable.",
+      "I would protect sensitive data through secure access, clear governance, and strong team coordination, while supporting people with clear delegation and quality review.",
+      "A group difference is a signal to investigate, not proof of unfairness. I verify definitions, missingness, sample size, and process variation before drawing conclusions.",
+      "I bring together rigorous analysis, practical program knowledge, and people leadership to help Touchstone make measures that are credible, useful, and trusted."
+    ];
+
+    const finalCredits = [
+      "Evidence That Leads",
+      "Manager, Data & Evaluation",
+      "Touchstone Institute",
+      "Prepared for a confident, decision-ready interview"
+    ];
+
+    let current = 0;
+    let playing = true;
+    let intervalId = null;
+    const sceneDuration = 7000;
+
+    function speakScene(index) {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(narration[index]);
+      utterance.rate = 0.96;
+      utterance.pitch = 1.08;
+      utterance.volume = 1;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function updateScene(index) {
+      scenes.forEach((scene, i) => scene.classList.toggle('active', i === index));
+      const progress = ((index + 1) / scenes.length) * 100;
+      progressFill.style.width = progress + '%';
+      slideCounter.textContent = `${String(index + 1).padStart(2, '0')} / ${String(scenes.length).padStart(2, '0')}`;
+      if (index === scenes.length - 1) {
+        const credits = document.querySelector('.footer .credits');
+        if (credits) {
+          credits.innerHTML = finalCredits.map((text) => `<span>${text}</span>`).join('');
+        }
+      } else {
+        const credits = document.querySelector('.footer .credits');
+        if (credits) {
+          credits.innerHTML = '<span>Evidence That Leads</span><span>Manager, Data &amp; Evaluation</span><span>Touchstone Institute</span>';
+        }
+      }
+      speakScene(index);
+    }
+
+    function nextScene() {
+      current = (current + 1) % scenes.length;
+      updateScene(current);
+    }
+
+    function startPlayback() {
+      if (intervalId) clearInterval(intervalId);
+      intervalId = setInterval(nextScene, sceneDuration);
+      togglePlay.textContent = 'Pause';
+      playing = true;
+      // Start narration for current scene after intro finishes.
+      speakScene(current);
+    }
+
+    function pausePlayback() {
+      if (intervalId) clearInterval(intervalId);
+      intervalId = null;
+      togglePlay.textContent = 'Play';
+      playing = false;
+      if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); }
+    }
+
+    togglePlay.addEventListener('click', () => {
+      if (playing) {
+        pausePlayback();
+      } else {
+        startPlayback();
+      }
+    });
+
+    updateScene(current);
+    setTimeout(() => {
+      introOverlay.classList.add('hidden');
+      startPlayback();
+    }, 2500);
+  </script>
+</body>
+</html>

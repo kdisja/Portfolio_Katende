@@ -1,0 +1,36 @@
+﻿TOUCHSTONE INSTITUTE INTERVIEW PRACTICE
+Manager, Data and Evaluation
+Part 3 — Governance, Influence, and First 90 Days
+
+QUESTION 9: How do you handle data governance and privacy?
+
+"Privacy by design, and I try to make it operational rather than aspirational.
+
+My direct experience is with Statistics Canada's secure cloud environment for linked health data — strict data residency, access control, and disclosure rules — plus de-identified administrative health data where re-identification risk had to be actively managed rather than assumed away.
+
+My approach: collect only what's needed; define retention at the point of collection; role-based access with an audit trail; aggregation or suppression before anything leaves the secure environment. In an assessment context I'd add small-cell suppression in public reporting — in small rural cohorts, a count plus demographics can re-identify someone.
+
+Legislatively, I've worked under PIPEDA and provincial requirements, and I'm comfortable applying PHIPA principles — limiting use to the stated purpose, safeguards proportionate to sensitivity. I'd work closely with your privacy lead on the health information specifics rather than assume.
+
+One thing I'd flag for PRO specifically: assessment data collected for a licensure decision shouldn't quietly become research data without a clear basis. That boundary can blur in pathway programs and it's worth protecting deliberately." ---
+
+QUESTION 10: Tell us about a disagreement with a senior leader, or influencing without authority.
+
+"S: In the air pollution and cancer study there was pressure to lead with a headline association between exposure and cancer incidence. The signal was there, but exposure definitions were still being standardised across cohorts, and I didn't think the aggregate result was stable enough to lead with.
+
+Task: Protect the credibility of the analysis without stalling the project.
+
+Action: I didn't lead with the objection. I asked what decision the paper needed to support — informing policymakers about environmental risk. Then I proposed an alternative: lead with the rigour of the linked dataset and the ICD-coded outcome definitions, present the association with explicit limitations, and add a subgroup analysis by socioeconomic status and geography to show where the signal was strongest. I drafted the revised analysis plan myself so the senior researcher could see it wasn't a downgrade — it was a more defensible version of the same finding.
+
+Result: It published with limitations foregrounded, and the subgroup analysis became the most cited part of the work. The lesson: disagreement lands better when you bring a finished alternative rather than a critique." ---
+
+QUESTION 11: What would you do in your first 90 days?
+
+"First 30 days, listen and map. Meet Caryn, Mark, the PRO team, and the partner contacts at CPSO, Ontario Health, and the MCC. Read whatever evaluation and reporting infrastructure exists. And get clear on the one thing I can't guess: what decisions the funder actually wants this evaluation to inform.
+
+Days 30 to 60, map the data and the people. Where does pathway data live — assessment, placement, return-of-service tracking — is it linked or stitched manually, and where are the quality risks. And who actually touches it: running a distributed data function taught me that the real process is the one the people closest to collection describe, not the one in the documentation. In parallel, two or three quick wins — a clean KPI set, a fixed definition where two teams are using different ones, or a dashboard refresh that cuts ad-hoc requests.
+
+Days 60 to 90, propose. A prioritised evaluation and measurement plan tied to the pilot timeline, with realistic sequencing and a clear statement of what we won't do this year and why. Then agree it with the Director so it's sponsored, not just mine.
+
+The through-line is that I'd want to be useful before I'm ambitious — credibility in the first quarter is what buys the room to do the bigger work." ---
+
